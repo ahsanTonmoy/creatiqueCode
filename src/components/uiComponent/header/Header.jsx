@@ -7,17 +7,17 @@ import FillBtn from '../buttons/FillBtn';
 const Header = () => {
     return (
         <div>
-            <header className="container shadow-lg p-2">
-                <div className="inner-content flex justify-between">
+            <header className="shadow-lg py-6 px-8">
+                <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
                         <Image src={brand} alt='logo-creatiqucode' />
                     </div>
 
-                    <div className=" p-4 flex">
+                    <div className=" flex gap-4">
                         <Menu />
 
-                        <FillBtn btnTitle={'check'}/>
+                        <FillBtn radius={' rounded-lg'} btnTitle={'free consutaletion'}/>
                     </div>
 
                 </div>
