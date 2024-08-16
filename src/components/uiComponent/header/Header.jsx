@@ -36,7 +36,7 @@ const Header = () => {
                                         <IoClose />
                                     </div>
                                     <div className="grid gap-20 my-4">
-                                        <Menu style={'grid gap-2'} />
+                                        <Menu style={'grid gap-2 text-black'} />
 
                                         <FillBtn radius={' rounded-sm'} btnTitle={'free consultation'} />
                                     </div>
