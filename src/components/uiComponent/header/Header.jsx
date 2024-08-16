@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import brand from '@/assects/image/brand/logo.png'
 import Image from 'next/image';
 import Menu from './../menuUI/Menu';
@@ -8,9 +8,25 @@ import { AiOutlineBars } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 const Header = () => {
     const [open, setOpen] = useState(false)
+    const [header, setHeader] = useState(false)
+
+    const scrollHeader = () =>{
+        if(window.scrollY >= 20){
+            setHeader(true)
+        }else{
+            setHeader(false)
+        }
+    }
+
+    useEffect(()=>{
+        window.addEventListener('scroll', scrollHeader)
+        return () =>{
+            window.addEventListener('scroll', scrollHeader)
+        }
+    },[])
     return (
         <div>
-            <header className=" py-6 px-8">
+            <header className={header? ' fixed w-full shadow-xl px-8 py-4':'px-8 py-4'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
