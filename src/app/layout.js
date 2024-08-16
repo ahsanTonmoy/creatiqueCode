@@ -1,3 +1,4 @@
+import Navigetions from "@/components/shared/navigetion/Navigetions";
 import "./globals.css";
 import './style.css'
 
@@ -11,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className=''>
         {/* navigetion */}
-        <div className="">  </div>
+        <div className=""><Navigetions/></div>
         {/* content */}
         <div className=" min-h-screen">{children}</div>
         {/* footer */}
