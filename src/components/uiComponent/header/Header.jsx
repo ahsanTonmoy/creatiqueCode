@@ -14,10 +14,10 @@ const Header = () => {
                         <Image src={brand} alt='logo-creatiqucode' />
                     </div>
 
-                    <div className=" flex gap-4">
-                        <Menu />
+                    <div className=" flex gap-16">
+                        <Menu style={' flex gap-6'} />
 
-                        <FillBtn radius={' rounded-lg'} btnTitle={'free consutaletion'}/>
+                        <FillBtn radius={' rounded-sm'} btnTitle={'free consultation'}/>
                     </div>
 
                 </div>
