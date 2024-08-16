@@ -1,6 +1,5 @@
 import "./globals.css";
 import './style.css'
-import { Navigetions } from '@/components/shared/navigetion/Navigetions';
 
 export const metadata = {
   title: "Creatiqe Code || Software Agency",
@@ -12,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className=''>
         {/* navigetion */}
-        <div className=""> <Navigetions/> </div>
+        <div className="">  </div>
         {/* content */}
         <div className=" min-h-screen">{children}</div>
         {/* footer */}
