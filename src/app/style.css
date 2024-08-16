@@ -1,0 +1,60 @@
+
+:root {
+    --text-color: #48494E;
+    --heading: #090F32;
+    --prime-one: #FF8C24;
+    --prime-two: #FF733B;
+    --prime-three: #6A45FF;
+    --prime-four: #FFCD45;
+    --prime-five: #007BFF;
+    --prime-six: #FFD338;
+    --prime-seven: linear-gradient(-90deg, #FF7DF2 0%, #FF275B 100%);
+    --prime-eight: #FFED4E;
+    --prime-nine: #FF1292;
+    --prime-ten: #FF3294;
+    --prime-eleven: #FFCE4C;
+    --prime-twelve: #FFE500;
+    --fillBtn-bg: #095859;
+    
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #090F32 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff !important;
+}
+
+
+
+.container {
+    padding: 1rem 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding: 1rem 3rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 1rem 2rem;
+    }
+}
+@media screen and (max-width: 760px) {
+    .container {
+        padding: 1rem 1.5rem;
+    }
+}
+
+/*  */
+.fillBtn{
+    background-color: var(--fillBtn-bg);
+}

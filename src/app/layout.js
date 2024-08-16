@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import './style.css'
+import Navigetions from  '@/components/shared/navigetion/Navigetions'
 
 export const metadata = {
   title: "Creatiqe Code || Software Agency",
@@ -11,9 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className=''>
         {/* navigetion */}
-        <div className=""></div>
+        <div className=""> <Navigetions/> </div>
         {/* content */}
         <div className=" min-h-screen">{children}</div>
         {/* footer */}
