@@ -66,3 +66,13 @@
 .menuItem{
     padding: .4rem 0;
 }
+
+/* 
+============= HOME PAGE ==============
+ */
+ .homeBannar{
+    background-image: url('../assects/image/bannar/home.JPG');
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+ }
