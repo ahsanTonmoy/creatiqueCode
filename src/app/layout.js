@@ -1,6 +1,6 @@
 import "./globals.css";
 import './style.css'
-import Navigetions from  '@/components/shared/navigetion/Navigetions'
+import { Navigetions } from '@/components/shared/navigetion/Navigetions';
 
 export const metadata = {
   title: "Creatiqe Code || Software Agency",
