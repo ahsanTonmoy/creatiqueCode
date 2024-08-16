@@ -58,3 +58,8 @@
 .fillBtn{
     background-color: var(--fillBtn-bg);
 }
+
+/* menu */
+.menuItem{
+    padding: .4rem 0;
+}

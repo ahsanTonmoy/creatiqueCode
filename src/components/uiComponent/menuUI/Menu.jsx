@@ -1,14 +1,17 @@
+'use client'
 import { menuItems } from '@/utills/menu/menuItems';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React from 'react';
 
-const Menu = () => {
+const Menu = ({style}) => {
+    const pathName = usePathname();
     return (
         <div>
-            <ul className=' flex gap-5'>
+            <ul className={`${style}`}>
                 {
                     menuItems.map(menu =>
-                        <li className='has-dropdown relative' tabIndex={0} role="button" key={menu}><Link href={menu.path}>{menu.route}</Link>
+                        <li className='menuItem relative capitalize font-semibold' tabIndex={0} role="button" key={menu}><Link className={`${pathName === menu.path ? ' border-b-2 pb-1 px-2 border-[#095859] hover:text-[#095859] transition-all duration-100': 'px-2 hover:text-[#095859]'}`} href={menu.path}>{menu.route}</Link>
                         </li>
                     )
                 }
