@@ -26,7 +26,7 @@ const Header = () => {
     },[])
     return (
         <div>
-            <header className={header? ' fixed w-full shadow-xl px-8 py-4':'px-8 py-4'}>
+            <header className={header? ' fixed w-full shadow-xl px-8 py-4 bg-white':'px-8 py-4'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
