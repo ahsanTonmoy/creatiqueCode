@@ -1,4 +1,5 @@
 import Bannar from '@/components/pages/home/bannar/Bannar';
+import Services from '@/components/pages/home/services/Services';
 import React from 'react';
 
 const page = () => {
@@ -10,7 +11,7 @@ const page = () => {
       </div>
       {/* s */}
       <div className='secendary-bg container'>
-        chack
+        <Services/>
       </div>
     </div>
   );

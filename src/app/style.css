@@ -15,6 +15,7 @@
     --prime-eleven: #FFCE4C;
     --prime-twelve: #FFE500;
     --fillBtn-bg: #095859;
+    --text-color-hightlight: #095859;
     --secendary-bg: #F5F5F5;
     
 }
@@ -56,6 +57,10 @@
 }
 .secendary-bg{
     background-color: var(--secendary-bg);
+}
+
+.heighLight{
+    color: var(--text-color-hightlight);
 }
 /*  */
 .sidebar{
