@@ -36,22 +36,22 @@
 
 
 .container {
-    padding: 1rem 5rem;
+    padding: 0 5rem;
 }
 
 @media screen and (max-width: 1000px) {
     .container {
-        padding: 1rem 3rem;
+        padding: 0 3rem;
     }
 }
 @media screen and (max-width: 800px) {
     .container {
-        padding: 1rem 2rem;
+        padding: 0 2rem;
     }
 }
 @media screen and (max-width: 760px) {
     .container {
-        padding: 1rem 1.5rem;
+        padding: 0 1.5rem;
     }
 }
 .secendary-bg{
@@ -77,7 +77,7 @@
  .homeBannar{
     background-image: url('../assects/image/bannar/home.JPG');
     background-size: 100% 100vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
  }
 
@@ -85,7 +85,7 @@
     .homeBannar{
         background-image: url();
         background-size: 100% 100vh;
-        height: 100vh;
+        min-height: 100vh;
         width: 100%;
      }
     }

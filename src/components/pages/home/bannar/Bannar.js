@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-
+import bannar from '@/assects/image/bannar/ils_02.jpg'
+import Image from 'next/image';
 const Bannar = () => {
     return (
         <div>
@@ -26,7 +27,13 @@ const Bannar = () => {
                             or <Link className='text-[#095859]' href={'/'}> free consulations</Link>
                         </div>
                     </div>
+
                 </div>
+
+                <div>
+                        <Image src={bannar} alt='bannar' className=''/>
+
+                    </div>
             </div>
         </div>
     );
