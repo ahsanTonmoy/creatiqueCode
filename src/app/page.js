@@ -4,7 +4,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <div className='container h-[3000px]'>
+      <div className='container'>
         <Bannar/>
       </div>
     </div>
