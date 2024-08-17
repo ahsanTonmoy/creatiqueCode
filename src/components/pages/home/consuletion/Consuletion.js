@@ -4,7 +4,7 @@ const Consuletion = () => {
     return (
         <div>
             <div className='md:py-20 py-4'>
-                <div className='inner-content'>
+                <div className='inner-content py-8'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                         {/* title */}
                         <div className='grid gap-8'>
