@@ -6,7 +6,7 @@ import web from '@/assects/image/icon/icon_53.svg'
 import seo from '@/assects/image/icon/icon_54.svg'
 import pay from '@/assects/image/icon/icon_55.svg'
 import Image from 'next/image';
-
+import { MdArrowRightAlt } from "react-icons/md";
 const Services = () =>{
     const serviceItem= [
         {
@@ -47,6 +47,8 @@ const Services = () =>{
                                     <div><Image src={item.icon} alt=''/></div>
                                     {/*  */}
                                     <div className='text-2xl font-semibold capitalize'>{item.title}</div>
+                                    {/*  */}
+                                    <div className='text-4xl'><MdArrowRightAlt/></div>
                                 </div>
                             )
                         }
