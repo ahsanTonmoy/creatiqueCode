@@ -1,6 +1,7 @@
 import Navigetions from "@/components/shared/navigetion/Navigetions";
 import "./globals.css";
 import './style.css'
+import Footer from "@/components/shared/footer/Footer";
 
 export const metadata = {
   title: "Creatiqe Code || Software Agency",
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
         {/* content */}
         <div className=" min-h-screen">{children}</div>
         {/* footer */}
-        <div className=""></div>
+        <div className=""><Footer/></div>
       </body>
     </html>
   );
