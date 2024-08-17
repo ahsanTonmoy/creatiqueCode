@@ -1,6 +1,7 @@
 import Bannar from '@/components/pages/home/bannar/Bannar';
 import Consuletion from '@/components/pages/home/consuletion/Consuletion';
 import Services from '@/components/pages/home/services/Services';
+import Testimonal from '@/components/pages/home/testimonal/Testimonal';
 import React from 'react';
 
 const page = () => {
@@ -14,8 +15,13 @@ const page = () => {
       <div className='secendary-bg container'>
         <Services/>
       </div>
+      {/* f */}
       <div className='container'>
         <Consuletion/>
+      </div>
+      {/* s */}
+      <div className='secendary-bg container'>
+        <Testimonal/>
       </div>
     </div>
   );
