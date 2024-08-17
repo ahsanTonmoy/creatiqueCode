@@ -34,9 +34,9 @@ const Services = () =>{
         <div>
             <div className='md:py-20 py-4'>
                 <div className='content'>
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+                    <div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
                         {/* title */}
-                        <div className='title col-span-2'>
+                        <div className='title md:col-span-2'>
                             <div className=' text-6xl leading-tight'>let&apos;s <br></br> Discover all our Services.</div>
                         </div>
                         {/* services card */}
