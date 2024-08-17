@@ -26,7 +26,7 @@ const Header = () => {
     },[])
     return (
         <div>
-            <header className={header? ' fixed w-full shadow-xl px-8 py-4 bg-white':'px-8 py-4'}>
+            <header className={header? ' fixed w-full shadow-xl px-8 py-4 bg-white z-10':'px-8 py-4'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
@@ -48,7 +48,7 @@ const Header = () => {
                             </div>
                             {/*  */}
                             {
-                                open ? <div className="sidebar fixed top-0 left-0 w-full h-screen text-base">
+                                open ? <div className="sidebar fixed top-0 left-0 w-full h-screen text-base z-20">
                                     <div className="menu bg-[#fff] w-60 h-screen p-4">
                                         <div className="text-[#095859] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
                                             <IoClose />
