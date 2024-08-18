@@ -3,18 +3,18 @@ import Link from 'next/link'
 import image from '../assects/image/ils_06.svg'
 import Image from 'next/image'
 export default function NotFound() {
-  return (
-    <div>
-        <div className='container'>
-                <div className='inner-content h-screen '>
-                    <div className='grid gap-12 place-content-center text-center h-screen'>
+    return (
+        <div>
+            <div className=' py-20'>
+                <div className='inner-content'>
+                    <div className='grid gap-6 place-content-center text-center'>
                         {/*  */}
-                        <div className='text-6xl'>
+                        <div className='text-3xl'>
                             Opps! you’r on the wrong place.
                         </div>
                         {/*  */}
-                        <div className='text-lg'>
-                        Can not find what you need? Take a moment and do a search below or start from our Homepage.
+                        <div className='text-xl'>
+                            Can not find what you need? Take a moment and do a search below or start from <br></br> our Homepage.
                         </div>
 
                         {/* btn */}
@@ -25,6 +25,6 @@ export default function NotFound() {
                     </div>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
