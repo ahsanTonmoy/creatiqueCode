@@ -2,8 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import newsImg from '../../../../assects/image/ils_06.svg'
 import OutLinebtn from '@/components/uiComponent/buttons/OutLinebtn';
+import FillBtn from '@/components/uiComponent/buttons/FillBtn';
 const Articals = () => {
-    const post =[
+    const post = [
         {
             image: newsImg,
             title: 'A Discount Cartridge dsu is Better Ever.',
@@ -23,17 +24,22 @@ const Articals = () => {
     return (
         <div>
             <div className='py-4 md:py-20'>
-            <div className='inner-content py-8'>
+                <div className='inner-content py-8'>
                     {/* title */}
-                    <div className='title text-6xl my-4'>
-                    You’r gonna love<br></br> us forever.
+                    <div className='md:flex gap-4 justify-between'>
+                        <div className='title text-6xl my-4 text-center md:text-start'>
+                            Company inside<br></br> News.
+                        </div>
+
+                        <div className='grid place-content-center my-4'><FillBtn radius={'rounded-md'} btnTitle={'go to blog'}></FillBtn></div>
                     </div>
+
 
                     {/* content */}
                     <div className='py-8'>
                         <div className='grid md:grid-cols-3 gap-4'>
                             {
-                                post.map(item=>
+                                post.map(item =>
                                     <div className='bg-white p-8 rounded-lg grid gap-4 capitalize shadow-sm' key={item}>
                                         {/*  */}
                                         <div className=' w-fit p-4 rounded-lg'>
@@ -46,7 +52,7 @@ const Articals = () => {
                                         {/*  */}
 
                                         <div className=' text-2xl font-medium'>
-                                           {item.title}
+                                            {item.title}
                                         </div>
 
                                         {/*  */}
