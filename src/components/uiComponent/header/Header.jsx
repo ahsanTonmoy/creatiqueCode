@@ -26,21 +26,21 @@ const Header = () => {
     },[])
     return (
         <div>
-            <header className={header? ' fixed w-full shadow-xl px-8 py-4 bg-white z-10':'px-8 py-4'}>
+            <header className={header? ' fixed w-full shadow-xl px-8 py-6 bg-white z-10':'px-8 py-6'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
                         <Image src={brand} alt='logo-creatiqucode' />
                     </div>
                     {/* for large device */}
-                    <div className="  gap-16 md:flex hidden">
-                        <Menu style={' flex gap-6'} />
+                    <div className="  gap-16 py-1 md:flex hidden">
+                        <Menu style={' flex gap-4'} />
                     </div>
 
                     {/* for large device */}
                     <div>
                         <div className="hidden lg:block">
-                            <FillBtn radius={' rounded-sm'} btnTitle={'free consultation'} />
+                            <FillBtn radius={' rounded-full'} btnTitle={'free consultation'} />
                         </div>
                         <div className=" text-[#095859] text-2xl py-2 md:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
