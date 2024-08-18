@@ -89,7 +89,13 @@
 .menuItem{
     padding: .4rem 0;
 }
-
+.pageBannar{
+    background-image: url('../assects/image/bannar/bg-16.svg');
+    background-size: 100% 100% cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
 /* 
 ============= HOME PAGE ==============
  */
