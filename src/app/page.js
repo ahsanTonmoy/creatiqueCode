@@ -1,3 +1,4 @@
+import Articals from '@/components/pages/home/articals/Articals';
 import Bannar from '@/components/pages/home/bannar/Bannar';
 import Consuletion from '@/components/pages/home/consuletion/Consuletion';
 import Services from '@/components/pages/home/services/Services';
@@ -22,6 +23,10 @@ const page = () => {
       {/* s */}
       <div className='secendary-bg container'>
         <Testimonal/>
+      </div>
+      {/* f */}
+      <div className=' container'>
+        <Articals/>
       </div>
     </div>
   );
