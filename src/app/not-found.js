@@ -18,7 +18,7 @@ export default function NotFound() {
                         </div>
 
                         {/* btn */}
-                        <div><FillBtn radius={'rounded-full'} btnTitle={'back to home'}></FillBtn></div>
+                        <Link href={'/'}><FillBtn radius={'rounded-full'} btnTitle={'back to home'}></FillBtn></Link>
 
                         <div> <Image src={image} alt=''></Image></div>
 
