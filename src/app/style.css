@@ -71,10 +71,18 @@
     background-color: var(--fillBtn-bg);
 }
 .outLineBtn{
-    border: 2px solid var(--fillBtn-bg);
+    border: 1px solid var(--fillBtn-bg);
     width: 100%;
     cursor: pointer;
     color: #095859;
+}
+.outLineBtn:hover{
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--fillBtn-bg);
+    transition: .6s;
 }
 
 /* menu */

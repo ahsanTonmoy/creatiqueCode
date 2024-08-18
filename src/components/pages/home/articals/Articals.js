@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import newsImg from '../../../../assects/image/ils_06.svg'
+import OutLinebtn from '@/components/uiComponent/buttons/OutLinebtn';
 const Articals = () => {
     const post =[
         {
@@ -46,6 +47,12 @@ const Articals = () => {
 
                                         <div className=' text-2xl font-medium'>
                                            {item.title}
+                                        </div>
+
+                                        {/*  */}
+
+                                        <div>
+                                            <OutLinebtn radius={'rounded-full'} btnTitle={'read more'}></OutLinebtn>
                                         </div>
                                     </div>
                                 )
