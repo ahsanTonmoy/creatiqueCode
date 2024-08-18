@@ -70,6 +70,12 @@
 .fillBtn{
     background-color: var(--fillBtn-bg);
 }
+.outLineBtn{
+    border: 2px solid var(--fillBtn-bg);
+    width: 100%;
+    cursor: pointer;
+    color: #095859;
+}
 
 /* menu */
 .menuItem{
