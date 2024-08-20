@@ -8,7 +8,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content}) => {
         <div>
             {/*  */}
             <div className={`${bgColor} relative`}>
-                <div className="p3 md:p-20">
+                <div className="p-3 md:p-20">
                     {/*  */}
                     <div className={`${yFector}`}>
                         <div className="shapes shape-one rounded-[50%] absolute  w-9 h-9 right-[21%] -top-5 bg-[#007BFF] "></div>

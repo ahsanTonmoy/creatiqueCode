@@ -28,13 +28,17 @@ const page = () => {
         <Testimonal />
       </div>
       {/* f */}
-      <div className='secendary-bg px-4 md:px-20'>
+      <div className='px-4 md:px-20'>
         <Articals />
       </div>
       {/* s */}
-      <div className='secendary-bg px-4 md:px-20'>
-        <News />
-      </div>
+      <SectionBG
+        bgColor={'secendary-bg'}
+        content={<div>
+          <News/>
+        </div>
+        }      >
+      </SectionBG>
     </>
   );
 };
