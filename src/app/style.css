@@ -101,8 +101,8 @@
  */
  .homeBannar{
     background-image: url('../assects/image/bannar/home.JPG');
-    background-size: 100% 100vh;
-    min-height: 100vh;
+    background-size: 100% 100%;
+    min-height: 100%;
     width: 100%;
  }
 
