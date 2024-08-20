@@ -6,7 +6,7 @@ const page = () => {
     return (
         <div>
             {/*  */}
-            <div className=''><PageBannar titile={'about'}/></div>
+            <div className=''><PageBannar titile={'about us'}/></div>
             {/*  */}
             <div className='container'><Info/></div>
         </div>

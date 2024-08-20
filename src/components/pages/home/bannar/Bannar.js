@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Bannar = () => {
     return (
         <div>
-            <div className='homeBannar' >
+            <div className='homeBannar pt-28' >
                 <div className='inner-content p-1 md:p-20 grid gap-8'>
                     <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
                         Increase your web traffic with our expert
