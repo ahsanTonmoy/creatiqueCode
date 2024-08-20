@@ -36,11 +36,11 @@ const Info = () => {
                                 <p className="text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] mb-[10px] pt-[30px] lg:pt-5 md:pt-5 sm:pt-5 xsm:pt-5 "><span class="font-medium text-black ">Avg 4.8 rating</span> makes us world best agency.</p>
 
                                 <div className='py-4 flex gap-1 text-xl text-yellow-500'>
-                                    <IoMdStar/>
-                                    <IoMdStar/>
-                                    <IoMdStar/>
-                                    <IoMdStar/>
-                                    <MdStarBorder/>
+                                    <IoMdStar />
+                                    <IoMdStar />
+                                    <IoMdStar />
+                                    <IoMdStar />
+                                    <MdStarBorder />
                                 </div>
                             </div>
 
@@ -66,6 +66,29 @@ const Info = () => {
                                 </div>
 
                                 {/*  */}
+                            </div>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div>
+                        <div className="grid md:grid-cols-3 justify-items-center pt-[60px] md:pt-10 sm:pt-10  ">
+                            <div className=" flex-[0_0_auto] px-[12px] max-w-full">
+                                <div className="counter-block-three text-center mt-10 wow fadeInUp" >
+                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">3.5</span>k</div>
+                                    <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">Job  successfully</p>
+                                </div>
+                            </div>
+                            <div className=" flex-[0_0_auto] px-[12px] max-w-full">
+                                <div className="counter-block-three text-center mt-10 wow fadeInUp">
+                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">20 </span>million</div>
+                                    <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">3,280 avg rating</p>
+                                </div>
+                            </div>
+                            <div className=" flex-[0_0_auto] px-[12px] max-w-full">
+                                <div className="counter-block-three text-center mt-10 wow fadeInUp" >
+                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">30</span>k+</div>
+                                    <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">Contact Profile</p>
+                                </div>
                             </div>
                         </div>
                     </div>
