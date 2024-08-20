@@ -34,7 +34,7 @@ const Services = () =>{
         <div>
             <div className='md:py-20 py-4'>
                 <div className='content'>
-                    <div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
+                    <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-4'>
                         {/* title */}
                         <div className='title md:col-span-2'>
                             <div className=' text-6xl leading-tight'>let&apos;s <br></br> Discover all our Services.</div>
@@ -42,11 +42,11 @@ const Services = () =>{
                         {/* services card */}
                         {
                             serviceItem.map(item => 
-                                <div className='bg-white hover:bg-[#095859] hover:transition-shadow hover:text-white p-10 rounded-lg grid gap-4 cursor-pointer' key={item}>
+                                <div className='bg-white hover:bg-[#095859] hover:transition-shadow hover:text-white p-10 rounded-lg grid gap-8 cursor-pointer' key={item}>
                                     {/* img */}
                                     <div><Image src={item.icon} alt=''/></div>
                                     {/*  */}
-                                    <div className='text-2xl font-semibold capitalize'>{item.title}</div>
+                                    <div className='text-2xl font-semibold capitalize w-fit'>{item.title}</div>
                                     {/*  */}
                                     <div className='text-4xl'><MdArrowRightAlt/></div>
                                 </div>

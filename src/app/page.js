@@ -10,27 +10,27 @@ const page = () => {
   return (
     <>
       {/* f */}
-      <div className='p-4 md:p-20'>
+      <div className='px-4 md:px-20'>
         <Bannar/>
       </div>
       {/* s */}
-      <div className='secendary-bg p-4 md:p-20'>
+      <div className='secendary-bg px-4 md:px-20'>
         <Services/>
       </div>
       {/* f */}
-      <div className='p-4 md:p-20'>
+      <div className='secendary-bg px-4 md:px-20'>
         <Consuletion/>
       </div>
       {/* s */}
-      <div className='secendary-bg p-4 md:p-20'>
+      <div className=' px-4 md:px-20'>
         <Testimonal/>
       </div>
       {/* f */}
-      <div className=' p-4 md:p-20'>
+      <div className='secendary-bg px-4 md:px-20'>
         <Articals/>
       </div>
       {/* s */}
-      <div className='secendary-bg p-4 md:p-20'>
+      <div className='secendary-bg px-4 md:px-20'>
         <News/>
       </div>
     </>
