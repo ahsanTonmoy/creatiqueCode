@@ -11,11 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='max-w-screen-xl mx-auto'>
+      <body className='max-w-screen-2xl mx-auto '>
         {/* navigetion */}
         <div className=""><Navigetions/></div>
         {/* content */}
-        <div className=" min-h-screen">{children}</div>
+        <div className="">{children}</div>
         {/* footer */}
         <div className=""><Footer/></div>
       </body>
