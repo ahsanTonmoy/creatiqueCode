@@ -1,10 +1,10 @@
 import React from 'react';
 
-const PageBannar = ({titile}) => {
+const PageBannar = ({ titile }) => {
     return (
-        <div>
-            <div className='pageBannar text-center capitalize'>
-                <div className='p-10 md:p-24'>
+        <div className='md:p-4'>
+            <div className='pageBannar text-center capitalize py-20 '>
+                <div className='p-4 md:p-24'>
                     {/* title */}
                     <div className='text-6xl font-bold'>{titile}</div>
                     {/* sub title */}
