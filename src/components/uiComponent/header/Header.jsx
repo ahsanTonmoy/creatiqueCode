@@ -26,7 +26,7 @@ const Header = () => {
     },[])
     return (
         <div>
-            <header className={header? ' fixed max-w-screen-2xl w-full mx-auto shadow-xl px-8 py-6 bg-white z-10':'px-8 py-6 bg-transparent'}>
+            <header className={header? ' fixed max-w-screen-2xl w-full mx-auto  shadow-xl px-8 py-6 bg-white z-10':'px-8 py-6 bg-transparent fixed max-w-screen-2xl w-full mx-auto z-10'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
