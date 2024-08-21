@@ -42,7 +42,7 @@ const Services = () =>{
                         {/* services card */}
                         {
                             serviceItem.map(item => 
-                                <div className='bg-white hover:bg-[#095859] hover:transition-shadow hover:text-white p-10 rounded-lg grid gap-8 cursor-pointer' key={item}>
+                                <div className='bg-white p-10 rounded-lg grid gap-8 cursor-pointer' key={item}>
                                     {/* img */}
                                     <div><Image src={item.icon} alt=''/></div>
                                     {/*  */}
