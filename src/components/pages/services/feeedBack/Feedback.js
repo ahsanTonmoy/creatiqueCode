@@ -19,10 +19,10 @@ const Feedback = () => {
                             </div>
                         </div>
                         {/* content */}
-                        <div className="inner-content p-20">
+                        <div className="inner-content md:p-20 p-4">
                             <div className=" grid lg:grid-cols-2 gap-4">
                                 {/*  */}
-                                <div className="feedback-block-one  items-end grid gap-4 p-8 grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
+                                <div className="feedback-block-one  items-end grid gap-4 p-8 md:grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
                                     <div className="img-meta relative overflow-hidden before:content-[''] before:absolute before:h-[51%] before:z-[1] before:rounded-[0_0_0_15px] before:bottom-0 before:inset-x-0 before:bg-[linear-gradient(180deg,rgba(255,255,255,0.0117614)_0%,rgba(255,255,255,0.701752)_43.58%,#FFFFFF_100%)] xsm:w-full xsm:max-w-[350px] xsm:max-h-[inherit] xsm:m-[0_auto_40px]">
                                         <Image src={img1} alt="" className="m-auto" />
                                     </div>
