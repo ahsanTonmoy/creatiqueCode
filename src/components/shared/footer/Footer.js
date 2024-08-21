@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <div>
             <footer className='px-8 py-4 bg-white'>
-                <div className='footer-content grid lg:gap-2 gap-8 grid-cols-1 md:grid-cols-5 py-10'>
+                <div className='footer-content grid lg:gap-2 gap-8 grid-cols-1 lg:grid-cols-5 py-10'>
                     {/* footerItem - logo */}
                     <div className='footerItem'>
                         <div className="brand w-32">
