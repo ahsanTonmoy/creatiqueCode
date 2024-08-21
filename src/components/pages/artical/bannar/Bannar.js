@@ -5,9 +5,9 @@ import shape172 from '@/assects/image/shape/shape_172.svg'
 const Bannar = () => {
     return (
         <div>
-            <div className='py-20 md:py-48'>
+            <div className='py-10 md:py-20'>
                 {/*  */}
-                <div className="fancy-feature-fiftyOne relative">
+                <div className="fancy-feature-fiftyOne relative pt-20">
                     <div className="container">
                         <div className="flex flex-wrap mx-[-12px]">
                             <div className="xxl:w-7/12 xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full text-center m-auto wow fadeInUp" >

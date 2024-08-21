@@ -6,11 +6,11 @@ const Blogs = () => {
             <div>
                 {/*  */}
                 <div className="blog-section-five mt-[70px]  lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">
-                    <div className="container">
+                    <div className="px-9">
                         <div className=" border-b-[#f1f1f1] border-b border-solid pb-[150px] lg:pb-[60px] md:pb-[60px] sm:pb-[60px] xsm:pb-[60px]  ">
                             <div className="flex flex-wrap mx-[-12px] xxl:mx-[-24px]">
                                 {/* blog card */}
-                                <div className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
                                     <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
                                         <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
                                         <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
@@ -18,7 +18,98 @@ const Blogs = () => {
                                         </div>
                                         <div className="blog-footer flex items-center justify-between mt-auto">
                                             <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
-                                            <a href="blog-details.html" className="read-more tran3s w-[45px] h-[45px] text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                {/* blog card */}
+                                <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full flex">
+                                    <article className="blog-meta-five flex flex-col relative tran3s mb-[60px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] border w-full transition-all duration-[0.3s] ease-[ease-in-out] p-12 border-solid border-black before:content-[''] before:absolute before:w-full before:h-full before:border before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:border-solid before:border-black before:left-2 before:top-2 hover:border-[color:var(--prime-ten)] hover:before:border-[color:var(--prime-ten)] wow fadeInUp" >
+                                        <div><a href="blog-details.html" className="tag uppercase font-medium tran3s text-[12px] sm:text-[11px] xsm:text-[11px] tracking-[1px] border text-black px-[11px] py-[3px] border-solid border-black hover:text-white hover:bg-black">Design</a></div>
+                                        <div className="post-data mt-[30px]  mb-[100px]  lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">
+                                            <a href="blog-details.html"><h4 className="tran3s blog-title text-3xl font-bold sm:text-[42px] xsm:text-[22px] leading-[1.416em] hover:text-black hover:underline">Until recently, the prevailing view assumed lorem ipsum was..</h4></a>
+                                        </div>
+                                        <div className="blog-footer flex items-center justify-between mt-auto">
+                                            <div className="blog-date font-medium  text-black ">Featured - <a href="blog-details.html" className="font-normal tran3s hover:text-black hover:underline">18 Jul 2023</a></div>
+                                            <a href="blog-details.html" className="read-more tran3s p-2 text-center leading-[45px] text-white text-[24px] bg-black hover:bg-[var(--prime-ten)]"><i className="bi bi-arrow-up-right rotate-12"><MdOutlineArrowOutward/></i></a>
                                         </div>
                                     </article>
                                 </div>
