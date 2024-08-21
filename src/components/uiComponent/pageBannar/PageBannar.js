@@ -2,7 +2,7 @@ import React from 'react';
 
 const PageBannar = ({ titile }) => {
     return (
-        <div className='md:p-4'>
+        <div className='md:px-4 md:pt-4'>
             <div className='pageBannar text-center capitalize py-20 '>
                 <div className='p-4 md:p-24'>
                     {/* title */}
