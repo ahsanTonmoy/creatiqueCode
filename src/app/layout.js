@@ -4,20 +4,24 @@ import './style.css'
 import Footer from "@/components/shared/footer/Footer";
 
 export const metadata = {
-  title: "Creatiqe Code || Software Agency",
+  title: {
+    default: "Creatiqe Code || Software Agency",
+    template: '%s | Creatiqe Code || Software Agency'
+  },
   description: "Software Agency",
+
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='max-w-screen-2xl mx-auto '>
+      <body className=' '>
         {/* navigetion */}
-        <div className=""><Navigetions/></div>
+        <div className=""><Navigetions /></div>
         {/* content */}
         <div className="">{children}</div>
         {/* footer */}
-        <div className=""><Footer/></div>
+        <div className="pageContainer"><Footer /></div>
       </body>
     </html>
   );

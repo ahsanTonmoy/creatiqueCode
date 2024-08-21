@@ -16,7 +16,7 @@ const page = () => {
       </div>
       <SectionBG
         bgColor={'secendary-bg'}
-        content={<div>
+        content={<div className='pageContainer'>
           <Services />
           <Consuletion />
         </div>
@@ -24,17 +24,17 @@ const page = () => {
       </SectionBG>
 
       {/* s */}
-      <div className=' px-4 md:px-20'>
+      <div className=' px-4 md:px-20 pageContainer'>
         <Testimonal />
       </div>
       {/* f */}
-      <div className='px-4 md:px-20'>
+      <div className='px-4 md:px-20 pageContainer'>
         <Articals />
       </div>
       {/* s */}
       <SectionBG
         bgColor={'secendary-bg'}
-        content={<div>
+        content={<div className='pageContainer'>
           <News/>
         </div>
         }      >

@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function NotFound() {
     return (
         <div>
-            <div className=' py-20'>
+            <div className=' py-40'>
                 <div className='inner-content'>
                     <div className='grid gap-6 place-content-center text-center'>
                         {/*  */}
@@ -13,7 +13,7 @@ export default function NotFound() {
                             Opps! you’r on the wrong place.
                         </div>
                         {/*  */}
-                        <div className='text-xl'>
+                        <div className='md:text-xl text-sm px-2'>
                             Can not find what you need? Take a moment and do a search below or start from <br></br> our Homepage.
                         </div>
 

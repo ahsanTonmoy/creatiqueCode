@@ -6,7 +6,7 @@ const Bannar = () => {
     return (
         <div>
             <div className='homeBannar pt-28' >
-                <div className='inner-content p-1 md:p-20 grid gap-8'>
+                <div className='inner-content pageContainer p-1 md:p-20 grid gap-8'>
                     <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
                         Increase your web traffic with our expert
                     </div>
@@ -30,10 +30,10 @@ const Bannar = () => {
 
                 </div>
 
-                <div>
-                        <Image src={bannar} alt='bannar' className=''/>
+                <div className='grid justify-items-center'>
+                    <Image src={bannar} alt='bannar' className='' />
 
-                    </div>
+                </div>
             </div>
         </div>
     );

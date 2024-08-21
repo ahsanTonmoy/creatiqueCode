@@ -1,4 +1,7 @@
-
+*{
+    
+    outline: 0 auto;
+}
 :root {
     --text-color: #48494E;
     --heading: #090F32;
@@ -38,6 +41,10 @@
 
 .container {
     padding: 0 5rem;
+}
+.pageContainer{
+    max-width: 1536px;
+    margin: 0 auto;
 }
 
 
@@ -93,7 +100,7 @@
 }
 .pageBannar{
     background-image: url('../assects/image/bannar/bg-16.svg');
-    background-size: 100% 100% cover;
+    background-size: cover;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -103,7 +110,7 @@
  */
  .homeBannar{
     background-image: url('../assects/image/bannar/home.JPG');
-    background-size: 100% 100%;
+    background-size: cover;
     min-height: 100%;
     width: 100%;
  }
