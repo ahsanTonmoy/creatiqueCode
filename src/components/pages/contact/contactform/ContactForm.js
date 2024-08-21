@@ -19,7 +19,7 @@ const ContactForm = () => {
 											<div className="w-full  flex-[0_0_auto] px-[12px] max-w-full">
 												<div className="input-group-meta form-group mb-[35px] ">
 													<label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">Name*</label>
-													<input className=" w-full h-[60px] text-black text-[17px] pl-5 pr-[5px] py-0 rounded-lg border-2 border-solid border-black placeholder:text-black" type="text" placeholder="Rashed Kabir" name="name" required="required" data-error="Name is required." />
+													<input className=" md:w-full h-[60px] text-black text-[17px] pl-5 pr-[5px] py-0 rounded-lg border-2 border-solid border-black placeholder:text-black" type="text" placeholder="Rashed Kabir" name="name" required="required" data-error="Name is required." />
 													<div className="help-block with-errors"></div>
 												</div>
 											</div>
@@ -27,23 +27,23 @@ const ContactForm = () => {
 											<div className="w-full  flex-[0_0_auto] px-[12px] max-w-full">
 												<div className="input-group-meta form-group mb-10 ">
 													<label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">Email*</label>
-													<input className=" w-full h-[60px] text-black text-[17px] pl-5 pr-[5px] py-0 rounded-lg border-2 border-solid border-black placeholder:text-black" type="email" placeholder="demo@domain.com" name="email" required="required" data-error="Valid email is required." />
+													<input className=" md:w-full h-[60px] text-black text-[17px] pl-5 pr-[5px] py-0 rounded-lg border-2 border-solid border-black placeholder:text-black" type="email" placeholder="demo@domain.com" name="email" required="required" data-error="Valid email is required." />
 													<div className="help-block with-errors"></div>
 												</div>
 											</div>
 											<div className="w-full  flex-[0_0_auto] px-[12px] max-w-full">
 												<div className="input-group-meta form-group mb-[30px]">
-													<textarea className=" w-full max-w-full h-[165px] text-black text-[17px] pl-5 pr-[5px] py-[15px] rounded-lg border-2 border-solid border-black placeholder:text-black" placeholder="Your message*" name="message" required="required" data-error="Please,leave us a message."></textarea>
+													<textarea className=" md:w-full max-w-full h-[165px] text-black text-[17px] pl-5 pr-[5px] py-[15px] rounded-lg border-2 border-solid border-black placeholder:text-black" placeholder="Your message*" name="message" required="required" data-error="Please,leave us a message."></textarea>
 													<div className="help-block with-errors"></div>
 												</div>
 											</div>
-											<div className="w-full  flex-[0_0_auto] px-[12px] max-w-full"><button className="btn-one font-medium w-full uppercase text-[14px] block text-white leading-[50px] relative transition-all duration-[0.3s] ease-[ease-in-out] px-8 py-0 rounded-[5px] bg-black hover:bg-[var(--prime-one)] hover:text-white md:leading-[48px] md:text-[15px] md:p-[0_25px] sm:leading-[48px] sm:text-[15px] sm:p-[0_25px] xsm:leading-[48px] xsm:text-[15px] xsm:p-[0_25px]">Send Message</button></div>
+											<div className="w-full  flex-[0_0_auto] px-[12px] max-w-full"><button className="btn-one font-medium md:w-full uppercase text-[14px] block text-white leading-[50px] relative transition-all duration-[0.3s] ease-[ease-in-out] px-8 py-0 rounded-[5px] bg-black hover:bg-[var(--prime-one)] hover:text-white md:leading-[48px] md:text-[15px] md:p-[0_25px] sm:leading-[48px] sm:text-[15px] sm:p-[0_25px] xsm:leading-[48px] xsm:text-[15px] xsm:p-[0_25px]">Send Message</button></div>
 										</div>
 									</form>
 								</div>
 							</div>
 							{/* address */}
-							<div className="w-full py-6 px-12 max-w-full" >
+							<div className="w-full py-6 md:px-12 " >
 								<div className="address-block-three flex mb-[70px] lg:mb-10 md:mb-10 sm:mb-10 xsm:mb-10 mt-5">
 									<div className="icon w-[35px] mt-[7px]"><Image className=" ml-auto" src={icon161} alt="" /></div>
 									<div className="text w-[calc(100%_-_35px)] pl-[30px]">
