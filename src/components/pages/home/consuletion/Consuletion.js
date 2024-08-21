@@ -11,7 +11,7 @@ const Consuletion = () => {
                             {/* title */}
                             <div className='title md:text-6xl text-3xl leading-tight'>
                                 Let’s talk <br></br>
-                                with expereince advisors.
+                                with <span className='heighLight'> expereince </span>advisors.
                             </div>
 
                             {/* sub title */}

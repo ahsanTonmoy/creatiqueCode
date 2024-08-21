@@ -28,7 +28,7 @@ const Articals = () => {
                     {/* title */}
                     <div className='md:flex gap-4 justify-between'>
                         <div className='title text-6xl my-4 text-center md:text-start'>
-                            Company inside<br></br> News.
+                        <span className='heighLight'> company </span> inside<br></br> News.
                         </div>
 
                         <div className='grid place-content-center my-4'><FillBtn radius={'rounded-md'} btnTitle={'go to blog'}></FillBtn></div>

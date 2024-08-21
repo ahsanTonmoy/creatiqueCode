@@ -12,7 +12,7 @@ const ServiceInfo = () => {
                         <div className="flex flex-wrap mx-[-12px] items-center md:gap-3 gap-8">
                             <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInLeft" >
                                 <div className="title-style-one text-center xl:text-left lg:text-left text-5xl">
-                                    <h2 className="main-title font-bold text-black !m-0">Provide <span className=" inline-block relative z-[1] before:content-[''] before:absolute before:w-[98%] before:h-3 before:z-[-1] before:left-1 before:bottom-2.5 before:bg-[rgba(255,139,37,0.4)]">Quality</span> Services.</h2>
+                                    <h2 className="main-title font-bold text-black !m-0">Provide <span className=" inline-block relative z-[1] heighLight">Quality</span> Services.</h2>
                                 </div> 
                             </div>
                             <div className="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[12px] max-w-full !ml-auto wow fadeInRight" >
@@ -20,6 +20,7 @@ const ServiceInfo = () => {
                             </div>
                         </div>
                     </div>
+                    {/* content */}
                     <div className="pt-[120px] lg:pt-20 md:pt-[60px] sm:pt-[60px] xsm:pt-[60px]">
                         <div className="flex flex-wrap mx-[-12px] xxl:mx-[-24px]">
                             {/* card */}

@@ -32,7 +32,7 @@ const Testimonal = () => {
                 <div className='inner-content py-8'>
                     {/* title */}
                     <div className='title text-6xl my-4'>
-                    You’r gonna love<br></br> us forever.
+                    You’r gonna <span className='heighLight'> love </span><br></br> us forever.
                     </div>
 
                     {/* content */}

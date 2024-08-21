@@ -8,7 +8,7 @@ const Bannar = () => {
             <div className='homeBannar pt-28' >
                 <div className='inner-content pageContainer p-1 md:p-20 grid gap-8'>
                     <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
-                        Increase your web traffic with our expert
+                        <span className=' heighLight'>Increase </span> your web traffic with our expert
                     </div>
 
                     <div className='text-center lg:text-3xl text-lg px-8 text-gray-400'>
