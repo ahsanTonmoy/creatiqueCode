@@ -2,6 +2,7 @@ import Navigetions from "@/components/shared/navigetion/Navigetions";
 import "./globals.css";
 import './style.css'
 import Footer from "@/components/shared/footer/Footer";
+import Head from "next/head";
 
 export const metadata = {
   title: {
@@ -15,6 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+    
+    </Head>
       <body className=' '>
         {/* navigetion */}
         <div className=""><Navigetions /></div>
