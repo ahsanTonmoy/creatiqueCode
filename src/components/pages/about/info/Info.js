@@ -17,7 +17,7 @@ const Info = () => {
                     {/* info */}
                     <div className='grid md:grid-cols-2 gap-6 md:gap-16'>
                         {/*  */}
-                        <div className=' grid gap-8 my-8 place-content-center'>
+                        <div className=' grid gap-8 my-8 place-content-center p-4'>
                             {/*  */}
                             <div className=' uppercase text-slate-300 font-bold text-xl'>about us</div>
                             {/*  */}
