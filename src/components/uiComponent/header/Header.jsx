@@ -56,7 +56,7 @@ const Header = () => {
                             {
                                 open ? <div className="sidebar fixed top-0 left-0 w-full h-screen text-base z-20">
                                     <div className="menu bg-[#fff] w-60 h-screen p-4">
-                                        <div className="text-[#095859] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
+                                        <div className="text-[#FF733B] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
                                             <IoClose />
                                         </div>
                                         <div className="grid gap-20 my-4">
