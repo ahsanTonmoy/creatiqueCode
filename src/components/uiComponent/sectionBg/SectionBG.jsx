@@ -8,7 +8,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content}) => {
     return (
         <div>
             {/*  */}
-            <div className={`'${bgColor} relative'`}>
+            <div className={`${bgColor} relative`}>
                 <div className="p-3 md:p-20">
                     {/*  */}
                     <div className={`${yFector}`}>

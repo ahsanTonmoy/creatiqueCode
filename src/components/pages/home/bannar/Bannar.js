@@ -25,7 +25,7 @@ const Bannar = () => {
                         <div className=' rounded-full lg:w-3/4 mx-auto bg-slate-400 font-semibold cursor-pointer'>
                             <form action='#' className=' relative'>
                                 <input className='md:p-6 p-4 px-6 w-full bg-[#eee] rounded-full capitalize' type='search' name='searchFild' placeholder='search here'></input>
-                                <input className='md:p-6 p-4 px-6 lg:w-48 md:w-24 fillBtn text-white absolute right-0 rounded-e-full uppercase font-semibold z-0' type='submit' name='searchFild' value={'search'}></input>
+                                <input className='md:p-6 p-4 px-6 lg:w-48 md:w-24 bg-[#FF733B] hover:bg-[#007BFF] text-white absolute right-0 rounded-e-full uppercase font-semibold z-0' type='submit' name='searchFild' value={'search'}></input>
                             </form>
                         </div>
 

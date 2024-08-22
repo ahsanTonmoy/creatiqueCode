@@ -90,7 +90,10 @@
 ================= shared section ===============
 */
 .fillBtn {
-    background-color: var(--fillBtn-bg);
+    background-color: var(--prime-five);
+}
+.fillBtn:hover {
+    background-color: var(--prime-two);
 }
 
 .outLineBtn {
@@ -112,6 +115,7 @@
 /* menu */
 .menuItem {
     padding: .4rem 0;
+    
 }
 
 .pageBannar {
