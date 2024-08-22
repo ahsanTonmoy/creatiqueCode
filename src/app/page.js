@@ -21,15 +21,13 @@ const page = () => {
         content={<div className='pageContainer'>
           <Services />
           <Consuletion />
+          <Testimonal />
         </div>
         }      >
       </SectionBG>
 
       {/* s */}
-      <div className=' px-4 md:px-20 pageContainer'>
-        <Testimonal />
-      </div>
-      {/* f */}
+     
       <div className='px-4 md:px-20 pageContainer'>
         <Articals />
       </div>

@@ -1,13 +1,61 @@
+'use client'
 const { default: Image } = require("next/image")
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+// import required modules
+import { Pagination } from 'swiper/modules';
 import img1 from '@/assects/image/media/img_02.png'
+import img2 from '@/assects/image/media/img_03.png'
 import icon7 from '@/assects/image/icon/icon_07.svg'
 const Feedback = () => {
+    const review = [
+        {
+            clientImg: img1,
+            clinetName: 'martin jones',
+            location: 'usa',
+            review: 'very solid , 8.5 out of 10',
+            text: 'We’v 9,000 agents across are country, Find agents near your neighborhood.',
+        },
+        {
+            clientImg: img2,
+            clinetName: 'martin jones',
+            location: 'usa',
+            review: 'very solid , 8.5 out of 10',
+            text: 'We’v 9,000 agents across are country, Find agents near your neighborhood.',
+        },
+        {
+            clientImg: img1,
+            clinetName: 'martin jones',
+            location: 'usa',
+            review: 'very solid , 8.5 out of 10',
+            text: 'We’v 9,000 agents across are country, Find agents near your neighborhood.',
+        },
+        {
+            clientImg: img2,
+            clinetName: 'martin jones',
+            location: 'usa',
+            review: 'very solid , 8.5 out of 10',
+            text: 'We’v 9,000 agents across are country, Find agents near your neighborhood.',
+        },
+        {
+            clientImg: img1,
+            clinetName: 'martin jones',
+            location: 'usa',
+            review: 'very solid , 8.5 out of 10',
+            text: 'We’v 9,000 agents across are country, Find agents near your neighborhood.',
+        },
+    ]
     return (
         <div>
             {/*  */}
-            <div className="">
+            <div className="feedback">
                 <div className="feedback-section-one z-[2] relative wow fadeInUp" >
-                    <div className="bg-white z-[2] relative pt-[150px] lg:pt-[100px] md:pt-[100px] sm:pt-[100px] xsm:pt-[100px] ">
+                    <div className="bg-white  relative pt-[150px] lg:pt-[100px] md:pt-[100px] sm:pt-[100px] xsm:pt-[100px] ">
                         {/* title */}
                         <div className="container">
                             <div className="flex flex-wrap mx-[-12px] items-center">
@@ -19,39 +67,35 @@ const Feedback = () => {
                             </div>
                         </div>
                         {/* content */}
-                        <div className="inner-content md:p-20 p-4">
-                            <div className=" grid lg:grid-cols-2 gap-4">
-                                {/*  */}
-                                <div className="feedback-block-one  items-end grid gap-4 p-8 md:grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
-                                    <div className="img-meta relative overflow-hidden before:content-[''] before:absolute before:h-[51%] before:z-[1] before:rounded-[0_0_0_15px] before:bottom-0 before:inset-x-0 before:bg-[linear-gradient(180deg,rgba(255,255,255,0.0117614)_0%,rgba(255,255,255,0.701752)_43.58%,#FFFFFF_100%)] xsm:w-full xsm:max-w-[350px] xsm:max-h-[inherit] xsm:m-[0_auto_40px]">
-                                        <Image src={img1} alt="" className="m-auto" />
-                                    </div>
-                                    <div className="grid gap-2 ">
-                                        <div className="icon flex items-center justify-center w-[55px] h-[55px] rounded-[50%]  bg-teal-600" >
-                                            <Image src={icon7} alt="" />
-                                        </div>
-                                        <div className="rating h3 font-bold text-3xl text-black ">Very solid, 8.3 out 10</div>
-                                        <p className=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] pt-[35px] pb-5">We’v 9,000 agents across are country, Find agents near your neighborhood.</p>
-                                        <h6>Martin Jonas, <span className="opacity-25">USA</span></h6>
-                                    </div>
-                                </div>
-                                {/*  */}
-                                <div className="feedback-block-one  items-end grid gap-4 p-8 grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
-                                    <div className="img-meta relative overflow-hidden before:content-[''] before:absolute before:h-[51%] before:z-[1] before:rounded-[0_0_0_15px] before:bottom-0 before:inset-x-0 before:bg-[linear-gradient(180deg,rgba(255,255,255,0.0117614)_0%,rgba(255,255,255,0.701752)_43.58%,#FFFFFF_100%)] xsm:w-full xsm:max-w-[350px] xsm:max-h-[inherit] xsm:m-[0_auto_40px]">
-                                        <Image src={img1} alt="" className="m-auto" />
-                                    </div>
-                                    <div className="grid gap-2 ">
-                                        <div className="icon flex items-center justify-center w-[55px] h-[55px] rounded-[50%]  bg-teal-600" >
-                                            <Image src={icon7} alt="" />
-                                        </div>
-                                        <div className="rating h3 font-bold text-3xl text-black ">Very solid, 8.3 out 10</div>
-                                        <p className=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] pt-[35px] pb-5">We’v 9,000 agents across are country, Find agents near your neighborhood.</p>
-                                        <h6>Martin Jonas, <span className="opacity-25">USA</span></h6>
-                                    </div>
-                                </div>
-                                
-                               
-                            </div>
+                        <div className="inner-content md:p-20 p-2">
+                            <Swiper
+                                slidesPerView={'auto'}
+                                centeredSlides={true}
+                                spaceBetween={30}
+                                className="mySwiper"
+                            >
+                                {
+                                    review.map(item => 
+                                        // slide per item
+                                        <SwiperSlide key={item}>
+                                            <div className="feedback-block-one  items-end grid gap-4 md:p-8 p-4 md:grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
+                                                <div className="img-meta relative overflow-hidden before:content-[''] before:absolute before:h-[51%] before:z-[1] before:rounded-[0_0_0_15px] before:bottom-0 before:inset-x-0 before:bg-[linear-gradient(180deg,rgba(255,255,255,0.0117614)_0%,rgba(255,255,255,0.701752)_43.58%,#FFFFFF_100%)] xsm:w-full xsm:max-w-[350px] xsm:max-h-[inherit] xsm:m-[0_auto_40px]">
+                                                    <Image src={item.clientImg} alt="" className="m-auto" />
+                                                </div>
+                                                <div className="grid gap-2 ">
+                                                    <div className="icon flex items-center justify-center w-[55px] h-[55px] rounded-[50%]  bg-teal-600" >
+                                                        <Image src={icon7} alt="" />
+                                                    </div>
+                                                    <div className="rating h3 font-bold text-3xl text-black ">{item.review}</div>
+                                                    <p className=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] pt-[35px] pb-5">{item.text}</p>
+                                                    <h6>{item.clinetName} <span className="opacity-25">{item.location}</span></h6>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+                                    )
+                                }
+
+                            </Swiper>
                         </div>
                     </div>
                 </div>

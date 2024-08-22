@@ -1,4 +1,15 @@
-import React from 'react';
+'use client'
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
 import icon from '@/assects/image/icon/icon_61.svg'
 import authorImg from '@/assects/image/author.jpg'
 import Image from 'next/image';
@@ -25,6 +36,41 @@ const Testimonal = () => {
             img: authorImg,
             localtion: 'australia'
         },
+        {
+            icon: icon,
+            msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+            author: 'devid ',
+            img: authorImg,
+            localtion: 'australia'
+        },
+        {
+            icon: icon,
+            msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+            author: 'devid ',
+            img: authorImg,
+            localtion: 'australia'
+        },
+        {
+            icon: icon,
+            msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+            author: 'devid ',
+            img: authorImg,
+            localtion: 'australia'
+        },
+        {
+            icon: icon,
+            msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+            author: 'devid ',
+            img: authorImg,
+            localtion: 'australia'
+        },
+        {
+            icon: icon,
+            msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+            author: 'devid ',
+            img: authorImg,
+            localtion: 'australia'
+        },
     ]
     return (
         <div>
@@ -32,37 +78,76 @@ const Testimonal = () => {
                 <div className='inner-content py-8'>
                     {/* title */}
                     <div className='title text-6xl my-4'>
-                    You’r gonna <span className='heighLight'> love </span><br></br> us forever.
+                        You’r gonna <span className='heighLight'> love </span><br></br> us forever.
                     </div>
 
                     {/* content */}
-                    <div className='py-8'>
-                        <div className='grid md:grid-cols-3 gap-4'>
-                            {
-                                testimonal.map(item=>
-                                    <div className='bg-white p-8 rounded-lg grid gap-4' key={item}>
-                                        {/*  */}
-                                        <div className='bg-teal-900 w-fit p-4 rounded-full'>
-                                            <Image src={item.icon} alt=''></Image>
-                                        </div>
-
-                                        {/*  */}
-                                        <div className=' text-lg font-extralight'>{item.msgg}</div>
-
-                                        {/*  */}
-
-                                        <div className='flex gap-8'>
-                                            <div>
-                                                <Image src={item.img} alt=''></Image>
+                    <div className=' py-10'>
+                        {/* for lerge */}
+                        <div className=' hidden lg:block'>
+                            {/* slider */}
+                            <Swiper watchSlidesProgress={true}
+                                slidesPerView={3}
+                                className="mySwiper">
+                                {
+                                    testimonal.map(item =>
+                                        <SwiperSlide className='bg-white m-4 p-8 rounded-lg grid !gap-4 ' key={item}>
+                                            {/*  */}
+                                            <div className='bg-teal-900 w-fit p-4 rounded-full'>
+                                                <Image src={item.icon} alt=''></Image>
                                             </div>
-                                            <div>
-                                                <div className='font-semibold text-base capitalize'>{item.author}</div>
-                                                <div className='text-gray-400 text-xl capitalize'>{item.localtion}</div>
+
+                                            {/*  */}
+                                            <div className=' text-lg font-extralight my-6'>{item.msgg}</div>
+
+                                            {/*  */}
+
+                                            <div className='flex gap-4'>
+                                                <div>
+                                                    <Image src={item.img} alt=''></Image>
+                                                </div>
+                                                <div>
+                                                    <div className='font-semibold text-base capitalize'>{item.author}</div>
+                                                    <div className='text-gray-400 text-xl capitalize'>{item.localtion}</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                )
-                            }
+                                        </SwiperSlide>
+                                    )
+                                }
+                            </Swiper>
+                        </div>
+                        {/*  */}
+                        <div className='lg:hidden'>
+                            {/* slider */}
+                            <Swiper watchSlidesProgress={true}
+                                slidesPerView={1}
+                                className="mySwiper">
+                                {
+                                    testimonal.map(item =>
+                                        <SwiperSlide className='bg-white p-8 rounded-lg grid  m-4 ' key={item}>
+                                            {/*  */}
+                                            <div className='bg-teal-900 w-fit p-4 rounded-full'>
+                                                <Image src={item.icon} alt=''></Image>
+                                            </div>
+
+                                            {/*  */}
+                                            <div className=' text-lg font-extralight my-6'>{item.msgg}</div>
+
+                                            {/*  */}
+
+                                            <div className='flex gap-4'>
+                                                <div>
+                                                    <Image src={item.img} alt=''></Image>
+                                                </div>
+                                                <div>
+                                                    <div className='font-semibold text-base capitalize'>{item.author}</div>
+                                                    <div className='text-gray-400 text-xl capitalize'>{item.localtion}</div>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+                                    )
+                                }
+                            </Swiper>
                         </div>
                     </div>
                 </div>

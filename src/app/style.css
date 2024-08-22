@@ -1,7 +1,8 @@
-*{
-    
+* {
+
     outline: 0 auto;
 }
+
 :root {
     --text-color: #48494E;
     --heading: #090F32;
@@ -20,7 +21,7 @@
     --fillBtn-bg: #095859;
     --text-color-hightlight: #095859;
     --secendary-bg: #F5F5F5;
-    
+
 }
 
 
@@ -42,7 +43,8 @@
 .container {
     padding: 0 5rem;
 }
-.pageContainer{
+
+.pageContainer {
     max-width: 1536px;
     margin: 0 auto;
 }
@@ -53,39 +55,45 @@
         padding: 0 3rem;
     }
 }
+
 @media screen and (max-width: 800px) {
     .container {
         padding: 0 2rem;
     }
 }
+
 @media screen and (max-width: 760px) {
     .container {
         padding: 0 1.5rem;
     }
 }
-.secendary-bg{
+
+.secendary-bg {
     background-color: var(--secendary-bg);
     width: 100%;
 }
 
 
 /*  */
-.sidebar{
+.sidebar {
     backdrop-filter: blur(4px);
 }
+
 /*
 ================= shared section ===============
 */
-.fillBtn{
+.fillBtn {
     background-color: var(--fillBtn-bg);
 }
-.outLineBtn{
+
+.outLineBtn {
     border: 1px solid var(--fillBtn-bg);
     width: 100%;
     cursor: pointer;
     color: #095859;
 }
-.outLineBtn:hover{
+
+.outLineBtn:hover {
     border: none;
     width: 100%;
     cursor: pointer;
@@ -95,10 +103,11 @@
 }
 
 /* menu */
-.menuItem{
+.menuItem {
     padding: .4rem 0;
 }
-.pageBannar{
+
+.pageBannar {
     background-image: url('../assects/image/bannar/bg-16.svg');
     background-size: cover;
     height: 100%;
@@ -106,30 +115,32 @@
     background-repeat: no-repeat;
 }
 
-.title{
+.title {
     text-transform: capitalize;
 }
+
 /* 
 ============= HOME PAGE ==============
  */
- .homeBannar{
+.homeBannar {
     background-image: url('../assects/image/bannar/home.JPG');
     background-size: cover;
     min-height: 100%;
     width: 100%;
- }
+}
 
 /* 
 before:content-[''] before:absolute before:w-[98%] before:h-3 before:z-[-1] before:left-1 before:bottom-2.5 before:bg-[rgba(255,139,37,0.4)]
 
 inline-block relative z-[1]
  */
-.heighLight{
+.heighLight {
     display: inline-block;
     position: relative;
     z-index: 1;
 }
- .heighLight::before{
+
+.heighLight::before {
     content: '';
     position: absolute;
     width: 98%;
@@ -137,5 +148,40 @@ inline-block relative z-[1]
     left: 4px;
     z-index: -1;
     bottom: 8px;
-    background-color: rgba(255,139,37,0.4);
- }
+    background-color: rgba(255, 139, 37, 0.4);
+}
+
+/*  */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .swiper-slide {
+    width: 60% !important;
+}
+
+.feedback .swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+
+.feedback .swiper-slide:nth-child(3n) {
+    width: 40%;
+}
+@media screen and (max-width: 1000px) {
+    
+    .feedback .swiper-slide {
+        width: 90% !important;
+    }
+}
+
+
+/*  */
