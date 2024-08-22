@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import shapeL from '@/assects/image/shape/shape_88.svg'
 import shapeR from '@/assects/image/shape/shape_89.svg'
@@ -7,7 +8,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content}) => {
     return (
         <div>
             {/*  */}
-            <div className={`${bgColor} relative`}>
+            <div className={`'${bgColor} relative'`}>
                 <div className="p-3 md:p-20">
                     {/*  */}
                     <div className={`${yFector}`}>
@@ -18,7 +19,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content}) => {
                     {/*  */}
                     <div className={`${xFector}`}>
                     <Image src={shapeL} alt="" className="lazy-img shapes shape-four absolute left-0 bottom-[6%]"/>
-                    <Image src={shapeR} alt="" className="lazy-img shapes shape-five absolute right-0 top-[6%]" style=""></Image>
+                    <Image src={shapeR} alt="" className="lazy-img shapes shape-five absolute right-0 top-[6%]"></Image>
                     </div>
                     <div>
                         {content}

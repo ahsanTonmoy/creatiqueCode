@@ -30,7 +30,7 @@ const Footer = () => {
                             <ul className={``}>
                                 {
                                     menuItems.map(menu =>
-                                        <li className='pt-2 relative capitalize font-normal' tabIndex={0} role="button" key={menu}><Link className={`${pathName === menu.path ? '  text-[#095859] hover:text-[#000] transition-all duration-100' : ' lg:hover:text-[#095859]'}`} href={menu.path}>{menu.route}</Link>
+                                        <li className='pt-2 relative capitalize font-normal'  key={menu.route}><Link className={`${pathName === menu.path ? '  text-[#095859] hover:text-[#000] transition-all duration-100' : ' lg:hover:text-[#095859]'}`} href={menu.path}>{menu.route}</Link>
                                         </li>
                                     )
                                 }

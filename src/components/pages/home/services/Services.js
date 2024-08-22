@@ -1,3 +1,4 @@
+'use client'
 import FillBtn from '@/components/uiComponent/buttons/FillBtn';
 import React from 'react';
 import Desgin from '@/assects/image/icon/icon_09.svg'

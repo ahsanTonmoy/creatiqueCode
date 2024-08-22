@@ -77,7 +77,7 @@ const Feedback = () => {
                                 {
                                     review.map(item => 
                                         // slide per item
-                                        <SwiperSlide key={item}>
+                                        <SwiperSlide key={item.clinetName}>
                                             <div className="feedback-block-one  items-end grid gap-4 md:p-8 p-4 md:grid-cols-2 rounded-[15px] bg-sada border border-solid border-[#E1E1E1]">
                                                 <div className="img-meta relative overflow-hidden before:content-[''] before:absolute before:h-[51%] before:z-[1] before:rounded-[0_0_0_15px] before:bottom-0 before:inset-x-0 before:bg-[linear-gradient(180deg,rgba(255,255,255,0.0117614)_0%,rgba(255,255,255,0.701752)_43.58%,#FFFFFF_100%)] xsm:w-full xsm:max-w-[350px] xsm:max-h-[inherit] xsm:m-[0_auto_40px]">
                                                     <Image src={item.clientImg} alt="" className="m-auto" />

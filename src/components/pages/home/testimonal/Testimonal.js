@@ -16,6 +16,7 @@ import Image from 'next/image';
 const Testimonal = () => {
     const testimonal = [
         {
+            id: 1,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid jonh',
@@ -23,6 +24,7 @@ const Testimonal = () => {
             localtion: 'usa'
         },
         {
+            id: 2,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: ' maria islam',
@@ -30,6 +32,7 @@ const Testimonal = () => {
             localtion: 'bangladesh'
         },
         {
+            id: 3,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -37,6 +40,7 @@ const Testimonal = () => {
             localtion: 'australia'
         },
         {
+            id: 4,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -44,6 +48,7 @@ const Testimonal = () => {
             localtion: 'australia'
         },
         {
+            id: 5,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -51,6 +56,7 @@ const Testimonal = () => {
             localtion: 'australia'
         },
         {
+            id: 6,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -58,6 +64,7 @@ const Testimonal = () => {
             localtion: 'australia'
         },
         {
+            id: 7,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -65,6 +72,7 @@ const Testimonal = () => {
             localtion: 'australia'
         },
         {
+            id: 8,
             icon: icon,
             msgg: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
             author: 'devid ',
@@ -91,7 +99,7 @@ const Testimonal = () => {
                                 className="mySwiper">
                                 {
                                     testimonal.map(item =>
-                                        <SwiperSlide className='bg-white m-4 p-8 rounded-lg grid !gap-4 ' key={item}>
+                                        <SwiperSlide className='bg-white m-4 p-8 rounded-lg grid !gap-4 ' key={item.id}>
                                             {/*  */}
                                             <div className='bg-teal-900 w-fit p-4 rounded-full'>
                                                 <Image src={item.icon} alt=''></Image>
@@ -124,7 +132,7 @@ const Testimonal = () => {
                                 className="mySwiper">
                                 {
                                     testimonal.map(item =>
-                                        <SwiperSlide className='bg-white p-8 rounded-lg grid  m-4 ' key={item}>
+                                        <SwiperSlide className='bg-white p-8 rounded-lg grid  m-4 ' key={item.id}>
                                             {/*  */}
                                             <div className='bg-teal-900 w-fit p-4 rounded-full'>
                                                 <Image src={item.icon} alt=''></Image>

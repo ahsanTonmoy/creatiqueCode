@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import React from 'react';
 import newsImg from '../../../../assects/image/ils_06.svg'
@@ -7,16 +8,19 @@ const Articals = () => {
     const post = [
         {
             image: newsImg,
+            id: 1,
             title: 'A Discount Cartridge dsu is Better Ever.',
             date: '11 july, 2023'
         },
         {
             image: newsImg,
+            id: 2,
             title: 'A Discount Cartridge dsu is Better Ever.',
             date: '19 augost, 2023'
         },
         {
             image: newsImg,
+            id: 3,
             title: 'A Discount Cartridge dsu is Better Ever.',
             date: '11 may, 2022'
         },
