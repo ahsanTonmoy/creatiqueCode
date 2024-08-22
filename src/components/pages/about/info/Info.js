@@ -33,7 +33,7 @@ const Info = () => {
                             </div>
                             {/*  */}
                             <div className=''>
-                                <p className="text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] mb-[10px] pt-[30px] lg:pt-5 md:pt-5 sm:pt-5 xsm:pt-5 "><span class="font-medium text-black ">Avg 4.8 rating</span> makes us world best agency.</p>
+                                <p className="text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] mb-[10px] pt-[30px] lg:pt-5 md:pt-5 sm:pt-5 xsm:pt-5 "><span className="font-medium text-black ">Avg 4.8 rating</span> makes us world best agency.</p>
 
                                 <div className='py-4 flex gap-1 text-xl text-yellow-500'>
                                     <IoMdStar />

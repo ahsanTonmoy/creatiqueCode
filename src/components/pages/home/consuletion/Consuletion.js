@@ -1,6 +1,18 @@
+'use client'
 import React from 'react';
 
 const Consuletion = () => {
+    const hendleform = e => {
+        e.preventDefault()
+
+        const msg = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            msg: e.target.msg.value,
+        }
+
+        console.log(msg);
+    }
     return (
         <div>
             <div className='md:py-20 py-4'>
@@ -29,19 +41,23 @@ const Consuletion = () => {
 
                         {/* from */}
                         <div className=' p-4 md:p-8 secendary-bg rounded-lg'>
-                            <form action='#'>
-                                <div className='grid gap-4'>
+                            {/*  */}
+                            <form onSubmit={hendleform}>
+                                <div className='grid gap-4 capitalize'>
                                     {/* name */}
                                     <div className='form-control'>
-                                        <input type='text' name='name' placeholder='your name *' className='bg-white p-4 w-full capitalize rounded-lg border-4'/>
+                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">Name*</label>
+                                        <input type='text' name='name' placeholder='your name *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
                                     </div>
-                                    {/* name */}
+                                    {/* email */}
                                     <div className='form-control'>
-                                        <input type='email' name='email' placeholder='email *' className='bg-white p-4 w-full capitalize rounded-lg border-4'/>
+                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">email*</label>
+                                        <input type='email' name='email' placeholder='email *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
                                     </div>
-                                    {/* name */}
+                                    {/* message */}
                                     <div className='form-control'>
-                                        <textarea type='text' name='msg' placeholder='your messeges' className='bg-white p-4 w-full capitalize rounded-lg border-4'></textarea>
+                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">messages*</label>
+                                        <textarea type='text' name='msg' placeholder='your messeges' className='bg-white p-4 w-full capitalize rounded-lg border-4' required></textarea>
                                     </div>
                                     {/* name */}
                                     <div className='form-control'>
