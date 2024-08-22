@@ -6,36 +6,42 @@ import Menu from './../menuUI/Menu';
 import FillBtn from '../buttons/FillBtn';
 import { AiOutlineBars } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
+import { motion } from "framer-motion"
+
 const Header = () => {
     const [open, setOpen] = useState(false)
     const [header, setHeader] = useState(false)
 
-    const scrollHeader = () =>{
-        if(window.scrollY >= 20){
+    const scrollHeader = () => {
+        if (window.scrollY >= 20) {
             setHeader(true)
-        }else{
+        } else {
             setHeader(false)
         }
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         window.addEventListener('scroll', scrollHeader)
-        return () =>{
+        return () => {
             window.addEventListener('scroll', scrollHeader)
         }
-    },[])
+    }, [])
     return (
         <div>
-            <header className={header? ' fixed  w-full mx-auto  shadow-xl px-8 py-6 bg-white z-10':'px-8 md:py-12 py-6 bg-transparent fixed  w-full mx-auto z-10'}>
+            <header className={header ? ' fixed  w-full mx-auto  shadow-xl px-8 py-6 bg-white z-10' : 'px-8 md:py-12 py-6 bg-transparent fixed  w-full mx-auto z-10'}>
                 <div className="inner-content flex justify-between gap-4">
                     {/* brand */}
                     <div className="brand w-32">
                         <Image src={brand} alt='logo-creatiqucode' />
                     </div>
                     {/* for large device */}
-                    <div className="  gap-16 py-1 lg:flex hidden">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.2 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 2 }}
+                        className="  gap-16 py-1 lg:flex hidden">
                         <Menu style={' flex gap-4'} />
-                    </div>
+                    </motion.div>
 
                     {/* for large device */}
                     <div>

@@ -1,11 +1,17 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
 import bannar from '@/assects/image/bannar/ils_02.jpg'
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 const Bannar = () => {
     return (
         <div>
-            <div className='homeBannar pt-28' >
+            <motion.div
+                initial={{ opacity: 0, scale: 0.3 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 2.7 }}
+                className='homeBannar pt-28' >
                 <div className='inner-content pageContainer p-1 md:p-20 grid gap-8'>
                     <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
                         <span className=' heighLight'>Increase </span> your web traffic with our expert
@@ -34,7 +40,7 @@ const Bannar = () => {
                     <Image src={bannar} alt='bannar' className='' />
 
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 };
