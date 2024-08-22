@@ -9,7 +9,7 @@ const Consuletion = () => {
                         {/* title */}
                         <div className='grid gap-8'>
                             {/* title */}
-                            <div className='title md:text-6xl text-3xl leading-tight'>
+                            <div className='sec-title md:text-6xl text-3xl leading-tight'>
                                 Let’s talk <br></br>
                                 with <span className='heighLight'> expereince </span>advisors.
                             </div>

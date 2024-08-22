@@ -66,13 +66,20 @@
     .container {
         padding: 0 1.5rem;
     }
+    .sec-title{
+        font-size: 20px !important;
+    }
 }
 
 .secendary-bg {
     background-color: var(--secendary-bg);
     width: 100%;
 }
-
+.sec-title{
+    font-size: 60px;
+    padding: 1rem 0;
+    
+}
 
 /*  */
 .sidebar {

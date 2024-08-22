@@ -16,7 +16,7 @@ const ChoseUs = () => {
                         {/* sub title */}
                         <div className="text-2xl text-neutral-500 font-bold">Why us?</div>
                         {/* title */}
-                        <div className="text-6xl font-bold leading-tight">Why <span className="heighLight">choose</span> creatique code.</div>
+                        <div className="sec-title">Why <span className="heighLight">choose</span> creatique code.</div>
                         {/* text */}
                         <div className="font-light text-3xl">We helping our client to fullfill their needs with our expert.</div>
                         {/* sub title */}

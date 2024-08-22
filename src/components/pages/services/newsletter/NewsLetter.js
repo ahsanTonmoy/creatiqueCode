@@ -15,7 +15,7 @@ const NewsLetter = () => {
                                         <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
                                             <div className="title-style-two">
                                                 <div className="sc-title font-medium text-[20px] text-[#F96F60] pb-[5px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] ">Subscirbe Now</div>
-                                                <h4 className="main-title font-bold text-black text-[50px] leading-[1.20em]  ">New user? Start your free trial now.</h4>
+                                                <h4 className="sec-title font-bold text-black text-[50px] leading-[1.20em]  ">New user? Start your free trial now.</h4>
                                             </div>
                                         </div>
                                         <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] place-self-center px-[12px] max-w-full">

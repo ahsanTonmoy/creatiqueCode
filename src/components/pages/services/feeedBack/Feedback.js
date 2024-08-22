@@ -61,7 +61,7 @@ const Feedback = () => {
                             <div className="flex flex-wrap mx-[-12px] items-center">
                                 <div className="xl:w-6/12 lg:w-6/12 md:w-7/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto">
                                     <div className="title-style-one text-center">
-                                        <h2 className="main-title font-bold text-6xl text-black my-4">What’s <span className=" inline-block relative z-[1] before:content-[''] before:absolute before:w-[98%] before:h-3 before:z-[-1] before:left-1 before:bottom-2.5 before:bg-[rgba(255,139,37,0.4)]">Our Client</span> Say About us.</h2>
+                                        <h2 className="sec-title font-bold text-6xl text-black my-4">What’s <span className=" inline-block relative z-[1] before:content-[''] before:absolute before:w-[98%] before:h-3 before:z-[-1] before:left-1 before:bottom-2.5 before:bg-[rgba(255,139,37,0.4)]">Our Client</span> Say About us.</h2>
                                     </div>
                                 </div>
                             </div>

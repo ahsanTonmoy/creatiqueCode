@@ -12,7 +12,7 @@ const ServiceInfo = () => {
                         <div className="flex flex-wrap mx-[-12px] items-center md:gap-3 gap-8">
                             <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInLeft" >
                                 <div className="title-style-one text-center xl:text-left lg:text-left text-5xl">
-                                    <h2 className="main-title font-bold text-black !m-0">Provide <span className=" inline-block relative z-[1] heighLight">Quality</span> Services.</h2>
+                                    <h2 className="sec-title font-bold text-black !m-0">Provide <span className=" inline-block relative z-[1] heighLight">Quality</span> Services.</h2>
                                 </div> 
                             </div>
                             <div className="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[12px] max-w-full !ml-auto wow fadeInRight" >

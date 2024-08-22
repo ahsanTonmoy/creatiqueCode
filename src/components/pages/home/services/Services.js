@@ -36,8 +36,8 @@ const Services = () =>{
                 <div className='content'>
                     <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4'>
                         {/* title */}
-                        <div className='title md:col-span-2'>
-                            <div className=' text-6xl leading-tight'>let&apos;s <br></br>  <span className='heighLight'>Discover</span> all our Services.</div>
+                        <div className=' md:col-span-2'>
+                            <div className='sec-title leading-tight'>let&apos;s <br></br>  <span className='heighLight'>Discover</span> all our Services.</div>
                         </div>
                         {/* services card */}
                         {

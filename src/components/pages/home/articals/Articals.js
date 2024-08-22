@@ -27,7 +27,7 @@ const Articals = () => {
                 <div className='inner-content py-8'>
                     {/* title */}
                     <div className='md:flex gap-4 justify-between'>
-                        <div className='title text-6xl my-4 text-center md:text-start'>
+                        <div className='sec-title text-6xl my-4 text-center md:text-start'>
                         <span className='heighLight'> company </span> inside<br></br> News.
                         </div>
 

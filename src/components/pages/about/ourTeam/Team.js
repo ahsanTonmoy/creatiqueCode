@@ -15,7 +15,7 @@ const Team = () => {
 						<div className=" w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInLeft" >
 							<div className="title-style-one text-center xl:text-left lg:text-left md:text-left ">
 								<div className="sc-title uppercase text-[16px] md:text-xl  tracking-[2px] text-[rgba(0,0,0,0.3)] mb-2">OUR TEAM</div>
-								<h2 className="main-title font-bold text-black text-[16px] md:text-5xl">We’ve talented expert to help you</h2>
+								<h2 className="sec-title font-bold text-black">We’ve talented expert to help you</h2>
 							</div> 
 						</div>
 						<div className="grid md:justify-items-end justify-items-center w-full gap-4 p-4" >

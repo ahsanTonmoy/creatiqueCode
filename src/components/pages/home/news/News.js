@@ -7,7 +7,7 @@ const News = () => {
             <div className='py-4 md:py20'>
                 <div className='inner-content'>
                     <div className=' p-1 md:p-20 grid gap-8'>
-                        <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
+                        <div className='sec-title lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
                             Ready to take plan? It’s just a matter of <span className='heighLight'> one click </span>
                         </div>
 
