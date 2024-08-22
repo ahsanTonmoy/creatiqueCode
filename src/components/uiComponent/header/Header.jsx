@@ -48,7 +48,7 @@ const Header = () => {
                         <div className="hidden lg:block">
                             <FillBtn radius={' rounded-full'} btnTitle={'free consultation'} />
                         </div>
-                        <div className=" text-[#095859] text-2xl py-2 lg:hidden cursor-pointer">
+                        <div className=" text-[#FF733B] text-2xl py-2 lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
                                 <AiOutlineBars />
                             </div>
