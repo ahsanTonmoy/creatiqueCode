@@ -55,8 +55,8 @@ const Services = () =>{
                         }
                         {/* buttom title */}
                         <div className=''>
-                            <div className='grid gap-4'>
-                                <div className='heighLight font-semibold'>Confusion?</div>
+                            <div className='grid gap-2 p-4 md:p-10 lg:p-20'>
+                                <div className=' text-[#FF8C24] font-semibold'>Confusion?</div>
                                 <div className=' font-normal text-3xl'>Send message for info.</div>
                                 <div className=''><FillBtn radius={'rounded-full'} btnTitle={'contact us'}></FillBtn></div>
                             </div>

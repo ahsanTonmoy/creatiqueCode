@@ -41,7 +41,7 @@ const Articals = () => {
 
                     {/* content */}
                     <div className='py-8'>
-                        <div className='grid md:grid-cols-3 gap-4'>
+                        <div className='grid lg:grid-cols-3 gap-4'>
                             {
                                 post.map(item =>
                                     <div className='bg-white p-8 rounded-lg grid gap-4 capitalize shadow-sm' key={item}>

@@ -36,9 +36,7 @@ const Header = () => {
                     </div>
                     {/* for large device */}
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.2 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 2 }}
+                        
                         className="  gap-16 py-1 lg:flex hidden">
                         <Menu style={' flex gap-4'} />
                     </motion.div>

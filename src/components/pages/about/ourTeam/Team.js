@@ -9,7 +9,7 @@ const Team = () => {
     return (
         <div>
             <div className="team-section-four mt-[150px] lg:mt-[90px] md:mt-[90px] sm:mt-[90px] xsm:mt-[90px]">
-				<div className="container">
+				<div className="p-4 md:p-8">
                     {/* title */}
 					<div className="grid md:grid-cols-2 mx-[-12px] items-end">
 						<div className=" w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInLeft" >
@@ -25,7 +25,7 @@ const Team = () => {
                     {/* content */}
 
 					<div className="wrapper border-b-[#f1f1f1] border-b border-solid pt-20 lg:pt-[50px] md:pt-[50px] sm:pt-[50px] xsm:pt-[50px] ">
-						<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+						<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
 							<div className=" w-full flex-[0_0_auto] px-[12px] max-w-full">
 								<div className="team-block-three relative pb-10 lg:pb-[30px] md:pb-[30px] sm:pb-[30px] xsm:pb-[30px] before:content-[''] before:absolute before:h-0.5 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:-bottom-px before:inset-x-0 before:bg-[#000] hover:before:opacity-100 wow fadeInUp" >
 									<div className="">

@@ -17,13 +17,13 @@ const Consuletion = () => {
         <div>
             <div className='md:py-20 py-4'>
                 <div className='inner-content py-8'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
                         {/* title */}
                         <div className='grid gap-8'>
                             {/* title */}
                             <div className='sec-title md:text-6xl text-3xl leading-tight'>
                                 Let’s talk <br></br>
-                                with <span className='heighLight'> expereince </span>advisors.
+                                with <span className='heighLight'> expereince </span> advisors.
                             </div>
 
                             {/* sub title */}
@@ -33,14 +33,14 @@ const Consuletion = () => {
 
                             {/*  */}
                             <div>
-                                <div className='text-[#095859] text-2xl capitalize my-4'>urgent?</div>
+                                <div className='text-[#FF733B] text-2xl capitalize my-4'>urgent?</div>
 
                                 <div className=' flex text-xl gap-2 capitalize '>call us <div className='-my-2 text-3xl '> +88 019XXXXXX</div></div>
                             </div>
                         </div>
 
                         {/* from */}
-                        <div className=' p-4 md:p-8 secendary-bg rounded-lg'>
+                        <div className=' p-4 md:p-8 bg-white rounded-lg'>
                             {/*  */}
                             <form onSubmit={hendleform}>
                                 <div className='grid gap-4 capitalize'>

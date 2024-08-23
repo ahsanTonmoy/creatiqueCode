@@ -58,7 +58,7 @@ const Info = () => {
                                     <Image src={shape12} alt="" className="lazy-img shapes shape-five absolute z-[-1] left-[9%] bottom-[2%]"  />
                                     <div className="shapes shape-six absolute w-20 h-20 rotate-[-15deg] z-0 animate-[rotatedTwo_3.5s_infinite_linear] rounded-[15px] left-0 top-[44%] bg-[#17BD37]"></div>
                                     <Image src={shape13} alt="" className="lazy-img shapes shape-seven absolute z-[-1] left-[-10%] animate-[jumpFour_3.5s_infinite_linear] top-1/4"  />
-                                    <div className="card-one absolute w-[330px] shadow-[0px_30px_60px_rgba(14,36,58,0.06)] right-[-17%] pl-[45px] pr-[15px] py-[25px] bottom-0 bg-white lg:p-[15px_15px_15px_30px] lg:w-[280px] md:p-[15px_15px_15px_30px] md:w-[280px] md:right-0 sm:p-[15px_15px_15px_30px] sm:w-[280px] sm:right-0 xsm:p-[15px_15px_15px_30px] xsm:w-[280px] xsm:right-0 wow fadeInUp" >
+                                    <div className="card-one absolute w-[330px] shadow-[0px_30px_60px_rgba(14,36,58,0.06)] right-[-17%] pl-[45px] pr-[15px] py-[25px] bottom-0 bg-white lg:p-[15px_15px_15px_30px] lg:w-[280px] md:p-[15px_15px_15px_30px] md:w-[280px] md:right-0 sm:p-[15px_15px_15px_30px] sm:w-[280px] sm:right-0 xsm:p-[15px_15px_15px_30px] xsm:w-[180px] xsm:right-0 wow fadeInUp" >
                                         <div className="icon flex items-center justify-center rounded-[50%] absolute w-[54px] h-[54px] shadow-[0px_15px_30px_rgba(11,13,36,0.208646)] z-[1] top-[-25px] left-[-25px] bg-[#A024FF]"><Image src={icon6} alt="" className="lazy-img"  /></div>
                                         <div className="name text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] font-medium text-black mb-[10px]">- Rashed Ka, <span className="opacity-50">CEO</span></div>
                                         <p className="text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">We aim to answer any quis query in a minute</p>
@@ -74,19 +74,19 @@ const Info = () => {
                         <div className="grid md:grid-cols-3 justify-items-center pt-[60px] md:pt-10 sm:pt-10  ">
                             <div className=" flex-[0_0_auto] px-[12px] max-w-full">
                                 <div className="counter-block-three text-center mt-10 wow fadeInUp" >
-                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">3.5</span>k</div>
+                                    <div className="main-count font-bold text-black text-[36px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">3.5</span>k</div>
                                     <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">Job  successfully</p>
                                 </div>
                             </div>
                             <div className=" flex-[0_0_auto] px-[12px] max-w-full">
                                 <div className="counter-block-three text-center mt-10 wow fadeInUp">
-                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">20 </span>million</div>
+                                    <div className="main-count font-bold text-black text-[36px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">20 </span>million</div>
                                     <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">3,280 avg rating</p>
                                 </div>
                             </div>
                             <div className=" flex-[0_0_auto] px-[12px] max-w-full">
                                 <div className="counter-block-three text-center mt-10 wow fadeInUp" >
-                                    <div className="main-count font-bold text-black text-[60px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">30</span>k+</div>
+                                    <div className="main-count font-bold text-black text-[36px] mb-[-9px] lg:text-[45px] lg:mb-[-5px] md:text-[35px] md:mb-[-5px] sm:text-[35px] sm:mb-[-5px] xsm:text-[35px] xsm:mb-[-5px]"><span className="counter">30</span>k+</div>
                                     <p className=" text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">Contact Profile</p>
                                 </div>
                             </div>

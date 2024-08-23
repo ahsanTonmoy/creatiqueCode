@@ -13,12 +13,12 @@ const page = () => {
     <>
     
       {/* f */}
-      <div className='px-4 md:px-20'>
+      <div className='px-4 lg:px-20'>
         <Bannar />
       </div>
       <SectionBG
         bgColor={'secendary-bg'}
-        content={<div className='pageContainer'>
+        content={<div className='pageContainer px-4 lg:px-20'>
           <Services />
           <Consuletion />
           <Testimonal />
@@ -28,13 +28,13 @@ const page = () => {
 
       {/* s */}
      
-      <div className='px-4 md:px-20 pageContainer'>
+      <div className='px-4 lg:px-20 pageContainer'>
         <Articals />
       </div>
       {/* s */}
       <SectionBG
         bgColor={'secendary-bg'}
-        content={<div className='pageContainer'>
+        content={<div className='pageContainer px-4 lg:px-20'>
           <News/>
         </div>
         }      >

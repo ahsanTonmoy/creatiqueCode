@@ -19,8 +19,8 @@ const ContactForm = () => {
 		<div className=' md:px-4'>
 			<div className='pageBannar'>
 				{/*  */}
-				<div className="md:p-8 p-2 pageContainer">
-					<div className="contact-section-two text-left p-8  mt-20 bg-white">
+				<div className="md:p-20 p-4 pageContainer">
+					<div className="contact-section-two text-left p-12 bg-white shadow-2xl">
 						<div className="grid md:grid-cols-2 gap-4">
 							{/* form */}
 							<div className="">
@@ -44,7 +44,7 @@ const ContactForm = () => {
 											</div>
 											{/* name */}
 											<div className='form-control'>
-												<input type='submit' value={'SEND MESSAGE'} className='fillBtn w-full text-white p-4 rounded-lg cursor-pointer font-bold'></input>
+												<input type='submit' value={'SEND MESSAGE'} className='fillBtn !bg-black w-full text-white p-4 rounded-lg cursor-pointer font-bold'></input>
 											</div>
 										</div>
 									</form>

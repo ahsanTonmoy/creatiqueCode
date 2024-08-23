@@ -8,13 +8,10 @@ const Bannar = () => {
     return (
         <div>
             <motion.div
-                initial={{ opacity: 0, scale: 0.3 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 2.7 }}
                 className='homeBannar pt-28' >
-                <div className='inner-content pageContainer p-1 md:p-20 grid gap-8'>
-                    <div className=' lg:text-6xl md:text-5xl text-4xl font-light text-center leading-snug'>
-                        <span className=' heighLight'>Increase </span> your web traffic with our expert
+                <div className='inner-content pageContainer md:p-10 lg:p-20 grid gap-8 md:gap-20'>
+                    <div className=' lg:text-7xl md:text-5xl text-4xl font-light text-center leading-relaxed'>
+                        <span className=' heighLight'>Increase </span> your web traffic <br></br> with our expert
                     </div>
 
                     <div className='text-center lg:text-3xl text-lg px-8 text-gray-400'>
@@ -22,15 +19,15 @@ const Bannar = () => {
                     </div>
 
                     <div className=''>
-                        <div className=' rounded-full lg:w-3/4 mx-auto bg-slate-400 font-semibold cursor-pointer'>
+                        <div className=' rounded-full lg:w-2/3 w-full mx-auto bg-slate-400 font-semibold cursor-pointer text-sm md:text-lg'>
                             <form action='#' className=' relative'>
-                                <input className='md:p-6 p-4 px-6 w-full bg-[#eee] rounded-full capitalize' type='search' name='searchFild' placeholder='search here'></input>
-                                <input className='md:p-6 p-4 px-6 lg:w-48 md:w-24 bg-[#FF733B] hover:bg-[#007BFF] text-white absolute right-0 rounded-e-full uppercase font-semibold z-0' type='submit' name='searchFild' value={'search'}></input>
+                                <input className='lg:p-8 p-6 px-6 w-full bg-[#eee] rounded-full capitalize' type='search' name='searchFild' placeholder='search here'></input>
+                                <input className='lg:p-8 p-6 px-6 md:w-48 w-24 bg-[#FF733B] hover:bg-[#007BFF] text-white absolute right-0 rounded-e-full uppercase font-semibold z-0' type='submit' name='searchFild' value={'search'}></input>
                             </form>
                         </div>
 
-                        <div className='p-4 my-4 text-center uppercase font-extrabold text-xl'>
-                            or <Link className='text-[#095859]' href={'/'}> free consulations</Link>
+                        <div className='p-4 my-4 text-center capitalize font-semibold text-xl'>
+                            or <Link className='text-[#FF8C24]' href={'/'}> free consulations</Link>
                         </div>
                     </div>
 
