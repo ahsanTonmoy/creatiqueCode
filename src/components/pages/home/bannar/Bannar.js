@@ -8,7 +8,7 @@ const Bannar = () => {
     return (
         <div>
             <motion.div
-                className='homeBannar pt-28' >
+                className=' pt-28' >
                 <div className='inner-content pageContainer md:p-10 lg:p-20 grid gap-8 md:gap-20'>
                     <div className=' lg:text-7xl md:text-5xl text-4xl font-light text-center leading-relaxed'>
                         <span className=' heighLight'>  Increase </span> your web traffic <br></br> with our expert
