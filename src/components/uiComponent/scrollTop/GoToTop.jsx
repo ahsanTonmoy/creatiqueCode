@@ -29,7 +29,7 @@ const GoToTop = () => {
   return (
 <>
 {isVisible && (
-        <div className="top-btn bg-black" onClick={goToBtn}>
+        <div className="top-btn bg-[#ff33ff]" onClick={goToBtn}>
           <FaArrowUp className="top-btn--icon" />
         </div>
       )}
