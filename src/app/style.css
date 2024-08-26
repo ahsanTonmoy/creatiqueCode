@@ -197,13 +197,13 @@ inline-block relative z-[1]
 /*  */
 .top-btn {
     font-size: 2.4rem;
-    width: 6rem;
-    height: 6rem;
+    width: 3rem;
+    height: 3rem;
     color: #fff;
     border-radius: 50%;
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 1rem;
+    right: 1rem;
     z-index: 999;
     display: flex;
     justify-content: center;
