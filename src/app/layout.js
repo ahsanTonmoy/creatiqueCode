@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         {/* footer */}
         <div className="pageContainer"><Footer /></div>
         <div>
-          <GoToTopoToTop />
+          <GoToTop />
         </div>
       </body>
     </html>
