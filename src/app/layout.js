@@ -3,6 +3,7 @@ import "./globals.css";
 import './style.css'
 import Footer from "@/components/shared/footer/Footer";
 import Head from "next/head";
+import GoToTop from "@/components/uiComponent/scrollTop/GoToTop";
 
 export const metadata = {
   title: {
@@ -26,7 +27,14 @@ export default function RootLayout({ children }) {
         <div className="">{children}</div>
         {/* footer */}
         <div className="pageContainer"><Footer /></div>
+        <div>
+          <GoToTopoToTop />
+        </div>
       </body>
     </html>
   );
 }
+
+
+
+

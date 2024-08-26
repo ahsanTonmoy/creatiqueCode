@@ -13,6 +13,7 @@ const Bannar = () => {
                     <div className=' lg:text-7xl md:text-5xl text-4xl font-light text-center leading-relaxed'>
                         <span className=' heighLight'>  Increase </span> your web traffic <br></br> with our expert
                     </div>
+                    
 
                     <div className='text-center lg:text-3xl text-lg px-8 text-gray-400'>
                         Agency work with top rated talented people provide qulaity services.
