@@ -1,4 +1,4 @@
-
+'use client' 
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { FaArrowUp } from "react-icons/fa";
