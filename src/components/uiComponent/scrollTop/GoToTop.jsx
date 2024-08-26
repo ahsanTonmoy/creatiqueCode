@@ -1,6 +1,5 @@
 'use client' 
 import React, { useEffect, useState } from "react";
-import styled from "styled-components";
 import { FaArrowUp } from "react-icons/fa";
 
 const GoToTop = () => {
@@ -42,7 +41,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position:  relative;
 
   .top-btn {
     font-size: 2.4rem;
