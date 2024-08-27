@@ -45,7 +45,7 @@ const Consuletion = () => {
                                     Fill the <br></br> form 
                                     </div>
 
-                                <div className='- px-44 - '>
+                                <div className='- px-4 - '>
                                     <Image className='   ' src={shape90} alt='' />
                                  </div>       
 
