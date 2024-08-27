@@ -40,13 +40,13 @@ const Consuletion = () => {
                             </div>
                         </div>
                         <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
-                            <div>
+                            <div className=' absolute -top-4 -left-4 '>
                                 <div>
-                                    fill in form 
+                                    fill the <br></br> form 
                                     </div>
 
                                 <div>
-                                    <Image   src={shape90} alt="" />
+                                    <Image className='grid justify-items-center  ' src={shape90} alt='' />
                                  </div>       
 
                          </div>
