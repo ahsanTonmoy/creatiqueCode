@@ -40,9 +40,9 @@ const Consuletion = () => {
                             </div>
                         </div>
                         <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
-                            <div className=' absolute -top-4 -left-4 '>
+                            <div className=' absolute -top-10 -left-6 -rotate-45 hidden md:block text-center '>
                                 <div>
-                                    fill the <br></br> form 
+                                    Fill the <br></br> form 
                                     </div>
 
                                 <div>
