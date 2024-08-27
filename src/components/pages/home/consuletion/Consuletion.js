@@ -45,8 +45,8 @@ const Consuletion = () => {
                                     Fill the <br></br> form 
                                     </div>
 
-                                <div className='bg-blue-500  px-4 -   --  '>
-                                    <Image className='   ' src={shape90} alt='' />
+                                <div className='bg-blue-500  - -   --  '>
+                                    <Image className=' -/ w-1/2 mx-auto , /# ' src={shape90} alt='' />
                                  </div>       
 
                          </div>
