@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
-
+import Image from 'next/Image '
+import shape90 from '@/assects/image/shape/shaoe_90.sv'
 const Consuletion = () => {
     const hendleform = e => {
         e.preventDefault()
@@ -38,25 +39,30 @@ const Consuletion = () => {
                                 <div className=' flex text-xl gap-2 capitalize '>call us <div className='-my-2 text-3xl '> +88 019XXXXXX</div></div>
                             </div>
                         </div>
+                        <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
+                            <div>
+                                <div>
+                                    fill in form 
+                                    </div>
 
-                        {/* from */}
-                        <div className=' p-4 md:p-8 bg-white rounded-lg'>
+                                <div>
+                                    <Image   src={shape90} alt="" />
+                                 </div>       
+
+                         </div>
                             {/*  */}
                             <form onSubmit={hendleform}>
                                 <div className='grid gap-4 capitalize'>
                                     {/* name */}
                                     <div className='form-control'>
-                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">Name*</label>
                                         <input type='text' name='name' placeholder='your name *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
                                     </div>
                                     {/* email */}
                                     <div className='form-control'>
-                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">email*</label>
                                         <input type='email' name='email' placeholder='email *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
                                     </div>
                                     {/* message */}
                                     <div className='form-control'>
-                                        <label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">messages*</label>
                                         <textarea type='text' name='msg' placeholder='your messeges' className='bg-white p-4 w-full capitalize rounded-lg border-4' required></textarea>
                                     </div>
                                     {/* name */}
