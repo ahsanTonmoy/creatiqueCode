@@ -40,12 +40,12 @@ const Consuletion = () => {
                             </div>
                         </div>
                         <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
-                            <div className=' absolute -top-10 -left-6 -rotate-6 hidden md:block text-center '>
+                            <div className=' absolute -top-12 -left-8 -rotate-12 hidden md:block text-center '>
                                 <div>
                                     Fill the <br></br> form 
                                     </div>
 
-                                <div className='- px-4 - '>
+                                <div className='bg-black  px-4 text-white  --  '>
                                     <Image className='   ' src={shape90} alt='' />
                                  </div>       
 
