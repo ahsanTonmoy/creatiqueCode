@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import Image from 'next/Image '
+import Image from 'next/image '
 import shape90 from '@/assects/image/shape/shaoe_90.sv'
 const Consuletion = () => {
     const hendleform = e => {
