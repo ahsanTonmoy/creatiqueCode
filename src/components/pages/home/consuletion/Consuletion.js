@@ -1,7 +1,7 @@
 'use client'
-import React from 'react';
-import Image from 'next/image '
-import shape90 from '@/assects/image/shape/shaoe_90.sv'
+import React from 'react'
+import Image from 'next/image';
+import shape90 from '@/assects/image/shape/shaoe_90.svg'
 const Consuletion = () => {
     const hendleform = e => {
         e.preventDefault()
