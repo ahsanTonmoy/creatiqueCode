@@ -14,7 +14,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content }) => {
                     {/*  */}
                     <div className={`${yFector}`}>
                         <div className="shapes shape-one rounded-[50%] absolute  w-9 h-9 right-[21%] -top-5 bg-[#007BFF] "></div>
-                        <div className="shapes shape-two rounded-[50%] absolute  w-9 h-9 left-[30%] -bottom-5 bg-[#FF7228] z-[10px]"></div>
+                        <div className="shapes shape-two rounded-[50%] absolute  w-9 h-9 left-[30%] -bottom-5 bg-[#FF7228] z-[10]"></div>
                         <div className="shapes shape-three rounded-[50%] absolute  w-2.5 h-2.5 animate-[jumpThree_5s_infinite_linear] left-[4%] top-[43%] bg-[#00D8AF]"></div>
                     </div>
                     {/*  */}
@@ -26,7 +26,7 @@ const SectionBG = ({ bgColor, xFector, yFector, content }) => {
                         {content}
                     </div>
                 </div>
-                <div className="rotate-180 absolute left-0 -bottom-4 ">
+                <div className="rotate-180 absolute left-0 -bottom-4">
                     <Image src={shape87} alt="" />
                 </div>
             </div>

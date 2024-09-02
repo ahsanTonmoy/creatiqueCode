@@ -7,10 +7,12 @@ import FillBtn from '../buttons/FillBtn';
 import { AiOutlineBars } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion"
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
     const [open, setOpen] = useState(false)
     const [header, setHeader] = useState(false)
+    const pathName = usePathname()
 
     const scrollHeader = () => {
         if (window.scrollY >= 20) {
