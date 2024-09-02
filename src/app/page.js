@@ -28,7 +28,7 @@ const page = () => {
 
       {/* s */}
      
-      <div className='px-4 lg:px-20 pageContainer'>
+      <div className='px-4 md:px-10 lg:px-20 pageContainer'>
         <Articals />
       </div>
       {/* s */}
