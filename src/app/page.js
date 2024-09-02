@@ -18,7 +18,7 @@ const page = () => {
       </div>
       <SectionBG
         bgColor={'secendary-bg'}
-        content={<div className='pageContainer px-4 lg:px-20'>
+        content={<div className='pageContainer '>
           <Services />
           <Consuletion />
           <Testimonal />
@@ -34,6 +34,7 @@ const page = () => {
       {/* s */}
       <SectionBG
         bgColor={'secendary-bg'}
+        xFector={'hidden'}
         content={<div className='pageContainer px-4 lg:px-20'>
           <News/>
         </div>

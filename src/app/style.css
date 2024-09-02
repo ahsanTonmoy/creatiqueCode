@@ -76,7 +76,6 @@
     width: 100%;
 }
 .sec-title{
-    font-size: 60px;
     padding: 1rem 0;
     
 }
@@ -211,3 +210,11 @@ inline-block relative z-[1]
     cursor: pointer;
 
 }
+<<<<<<< HEAD
+=======
+
+
+.title-style-one{
+    line-height: 3rem;
+}
+>>>>>>> 2453055 (recover data)
