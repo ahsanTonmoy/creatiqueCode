@@ -29,7 +29,7 @@ const GoToTop = () => {
     <>
       {isVisible && (
         <div className="top-btn shadow-xl">
-          <div className=" bg-[#ff33ff] top-btn" onClick={goToBtn}>
+          <div className=" bg-[#ff3294] top-btn" onClick={goToBtn}>
             <BsArrowUp className="top-btn--icon" />
           </div>
 
