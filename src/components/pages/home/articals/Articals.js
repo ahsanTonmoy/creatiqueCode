@@ -1,25 +1,27 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import newsImg from '../../../../assects/image/ils_06.svg'
+import newsImg1 from '../../../../assects/image/blog/blog_img_04.jpg'
+import newsImg2 from '../../../../assects/image/blog/blog_img_05.jpg'
+import newsImg3 from '../../../../assects/image/blog/blog_img_06.jpg'
 import OutLinebtn from '@/components/uiComponent/buttons/OutLinebtn';
 import FillBtn from '@/components/uiComponent/buttons/FillBtn';
 const Articals = () => {
     const post = [
         {
-            image: newsImg,
+            image: newsImg1,
             id: 1,
             title: 'A Discount Cartridge dsu is Better Ever.',
             date: '11 july, 2023'
         },
         {
-            image: newsImg,
+            image: newsImg2,
             id: 2,
-            title: 'A Discount Cartridge dsu is Better Ever.',
+            title: 'Truck Side Advertising Isn It Time for action.',
             date: '19 augost, 2023'
         },
         {
-            image: newsImg,
+            image: newsImg3,
             id: 3,
             title: 'A Discount Cartridge dsu is Better Ever.',
             date: '11 may, 2022'
@@ -41,12 +43,12 @@ const Articals = () => {
 
                     {/* content */}
                     <div className='py-8'>
-                        <div className='grid lg:grid-cols-3 gap-4'>
+                        <div className='grid lg:grid-cols-3 gap-6'>
                             {
                                 post.map(item =>
-                                    <div className='bg-white p-8 rounded-lg grid gap-4 capitalize shadow-sm' key={item}>
+                                    <div className='bg-white rounded-lg grid gap-4 capitalize ' key={item}>
                                         {/*  */}
-                                        <div className=' w-fit p-4 rounded-lg'>
+                                        <div className=' w-fit rounded-lg'>
                                             <Image src={item.image} alt=''></Image>
                                         </div>
 
