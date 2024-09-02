@@ -28,7 +28,7 @@ const Consuletion = () => {
                                 <Image src={icon60} alt='' />
                             </div>
                             {/* title */}
-                            <div className='sec-title md:text-6xl text-3xl leading-tight'>
+                            <div className='sec-title md:text-6xl w-full 2xl:w-7/12 text-3xl leading-tight'>
                                 Let’s talk <br></br>
                                 with <span className='heighLight'> expereince </span> advisors.
                             </div>

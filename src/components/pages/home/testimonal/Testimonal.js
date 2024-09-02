@@ -85,7 +85,7 @@ const Testimonal = () => {
             <div className='md:py-20 py-4'>
                 <div className='inner-content py-8'>
                     {/* title */}
-                    <div className='sec-title text-6xl my-4'>
+                    <div className='sec-title w-full 2xl:w-7/12 text-6xl my-4'>
                         You’r gonna <span className='heighLight'> love </span><br></br> us forever.
                     </div>
 
