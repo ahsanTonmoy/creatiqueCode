@@ -31,7 +31,7 @@ const News = () => {
 
                             <div className='p-4 my-4 text-center text-zinc-500 font-medium text-lg'>
                             Already a member? 
-                                or <Link className='border-b text-black' href={'/'}> Sign in.</Link>
+                                or <Link className='border-b border-black text-black' href={'/'}> Sign in.</Link>
                             </div>
                         </div>
 
