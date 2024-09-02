@@ -13,7 +13,7 @@ const page = () => {
     <>
     
       {/* f */}
-      <div className='px-4 lg:px-20'>
+      <div className='px-4 lg:px-20 relative'>
         <Bannar />
       </div>
       <SectionBG
