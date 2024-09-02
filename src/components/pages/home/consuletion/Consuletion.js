@@ -17,7 +17,7 @@ const Consuletion = () => {
     }
     return (
         <div>
-            <div className='md:py-20 py-4'>
+            <div className='md:py-20 py-4 '>
                 <div className='inner-content py-8'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
                         {/* title */}
@@ -40,7 +40,7 @@ const Consuletion = () => {
                                 <div className=' flex text-xl gap-2 capitalize '>call us <div className='-my-2 text-3xl '> +88 01311857085</div></div>
                             </div>
                         </div>
-                        <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
+                        <div className='lg:m-0 md:m-10 p-4 md:p-8 bg-white rounded-lg relative '>
                             {/* top bg */}
                             <div className=' absolute -top-14 -left-20 -rotate-12 hidden md:block text-center text-xl'>
                                 <div>
