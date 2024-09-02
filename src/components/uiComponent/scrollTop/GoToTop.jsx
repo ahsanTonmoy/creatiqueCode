@@ -1,7 +1,6 @@
-'use client' 
+'use client'
 import React, { useEffect, useState } from "react";
-import { FaArrowUp } from "react-icons/fa";
-
+import { BsArrowUp } from "react-icons/bs";
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -27,15 +26,18 @@ const GoToTop = () => {
   }, []);
 
   return (
-<>
-{isVisible && (
-        <div className="top-btn bg-[#ff33ff] " onClick={goToBtn}>
-          <FaArrowUp className="top-btn--icon" />
+    <>
+      {isVisible && (
+        <div className="top-btn shadow-xl">
+          <div className=" bg-[#ff33ff] top-btn" onClick={goToBtn}>
+            <BsArrowUp className="top-btn--icon" />
+          </div>
+
         </div>
       )}
-</>
+    </>
 
- 
+
   );
 };
 
@@ -43,4 +45,4 @@ const GoToTop = () => {
 
 
 
-export default  GoToTop ; 
+export default GoToTop; 
