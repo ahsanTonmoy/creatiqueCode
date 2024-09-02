@@ -90,7 +90,7 @@ const Testimonal = () => {
                     </div>
 
                     {/* content */}
-                    <div className=' py-10 px-10 lg:px-0 md:px-20'>
+                    <div className=' py-10 px-4 lg:px-0 md:px-20'>
                         {/* for lerge */}
                         <div className=' hidden lg:block'>
                             {/* slider */}
