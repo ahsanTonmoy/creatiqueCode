@@ -7,11 +7,12 @@ import Testimonal from '@/components/pages/home/testimonal/Testimonal';
 import SectionBG from '@/components/uiComponent/sectionBg/SectionBG';
 import Head from 'next/head';
 import React from 'react';
+import Preloader from './../components/shared/preloader/Preloader';
 
 const page = () => {
   return (
     <>
-    
+    <Preloader/>
       {/* f */}
       <div className='px-4 lg:px-20 relative'>
         <Bannar />

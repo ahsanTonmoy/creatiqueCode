@@ -6,12 +6,14 @@ import Purchese from '@/components/pages/services/purchese/Purchese';
 import ServiceInfo from '@/components/pages/services/serviceInfo/ServiceInfo';
 import PageBannar from '@/components/uiComponent/pageBannar/PageBannar';
 // 
+import Preloader from '../../components/shared/preloader/Preloader';
 export const metadata = {
     title: 'Services'
 }
 const page = () => {
     return (
         <div>
+            <Preloader/>
             {/*  */}
             <div className=''><PageBannar titile={'our services'} /></div>
             {/*  */}

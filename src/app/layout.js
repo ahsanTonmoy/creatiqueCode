@@ -4,8 +4,7 @@ import './style.css'
 import Footer from "@/components/shared/footer/Footer";
 import Head from "next/head";
 import GoToTop from "@/components/uiComponent/scrollTop/GoToTop";
-import Loading from "./loading";
-import { Suspense } from "react";
+import Preloader from './../components/shared/preloader/Preloader';
 
 export const metadata = {
   title: {
@@ -23,8 +22,8 @@ export default function RootLayout({ children }) {
     
     </Head>
       <body className=' '>
-        <Suspense fallback={<Loading/>}>
-           {/* navigetion */}
+        <Preloader/>
+        {/* navigetion */}
         <div className=""><Navigetions /></div>
         {/* content */}
         <div className="">{children}</div>
@@ -33,8 +32,6 @@ export default function RootLayout({ children }) {
         <div>
           <GoToTop />
         </div>
-        </Suspense>
-       
       </body>
     </html>
   );

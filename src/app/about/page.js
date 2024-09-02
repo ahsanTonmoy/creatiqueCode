@@ -2,6 +2,8 @@ import Info from '@/components/pages/about/info/Info';
 import Team from '@/components/pages/about/ourTeam/Team';
 import PageBannar from '@/components/uiComponent/pageBannar/PageBannar';
 import React from 'react';
+import Preloader from '../../components/shared/preloader/Preloader';
+
 
 // title
 export const metadata = {
@@ -10,6 +12,7 @@ export const metadata = {
 const page = () => {
     return (
         <div>
+            <Preloader/>
             {/*  */}
             <div className=''><PageBannar titile={'about us'}/></div>
             {/*  */}
