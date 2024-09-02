@@ -43,7 +43,7 @@ const Articals = () => {
 
                     {/* content */}
                     <div className='py-8'>
-                        <div className='grid lg:grid-cols-3 gap-6'>
+                        <div className='grid lg:grid-cols-3  justify-items-center place-content-center gap-6'>
                             {
                                 post.map(item =>
                                     <div className='bg-white rounded-lg grid gap-4 capitalize ' key={item}>
