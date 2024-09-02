@@ -55,10 +55,10 @@ const Services = () =>{
                         }
                         {/* buttom title */}
                         <div className=''>
-                            <div className='grid gap-2 p-4 md:p-10 lg:p-20'>
+                            <div className='grid gap-2 p-4 justify-items-center md:justify-items-start 2xl:p-20'>
                                 <div className=' text-[#FF8C24] font-semibold'>Confusion?</div>
                                 <div className=' font-normal text-3xl'>Send message for info.</div>
-                                <div className=''><FillBtn radius={'rounded-full'} btnTitle={'contact us'}></FillBtn></div>
+                                <div className='py-4'><FillBtn radius={'rounded-full'} btnTitle={'contact us'}></FillBtn></div>
                             </div>
                         </div>
                         {/*  */}
