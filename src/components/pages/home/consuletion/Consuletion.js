@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image';
 import shape90 from '@/assects/image/shape/shape_90.svg'
 import shape91 from '@/assects/image/shape/shape_91.svg'
+import icon60 from '../../../../assects/image/icon/icon_60.svg'
 const Consuletion = () => {
     const hendleform = e => {
         e.preventDefault()
@@ -21,7 +22,10 @@ const Consuletion = () => {
                 <div className='inner-content py-8'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
                         {/* title */}
-                        <div className='grid gap-8'>
+                        <div className='grid gap-4'>
+                            <div className=''>
+                                <Image src={icon60} alt='' />
+                            </div>
                             {/* title */}
                             <div className='sec-title md:text-6xl text-3xl leading-tight'>
                                 Let’s talk <br></br>
