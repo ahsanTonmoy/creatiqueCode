@@ -19,7 +19,7 @@ const page = () => {
             <div className='pageContainer container'>
                 <ServiceInfo />
             </div>
-            <div className='pageBannar md:m-4 relative'>
+            <div className='pageBannar relative'>
                 <div className='pageContainer'><ChoseUs /></div>
 
             </div>

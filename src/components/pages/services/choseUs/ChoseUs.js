@@ -12,13 +12,13 @@ const ChoseUs = () => {
                 {/*  */}
                 <div className="grid lg:grid-cols-2 gap-8">
                     {/* title */}
-                    <div className="grid gap-8 px-4">
+                    <div className="grid px-4">
                         {/* sub title */}
-                        <div className="text-2xl text-neutral-500 font-bold">Why us?</div>
+                        <div className="text-2xl text-black opacity-30 font-bold">Why us?</div>
                         {/* title */}
-                        <div className="sec-title">Why <span className="heighLight">choose</span> creatique code.</div>
+                        <div className="sec-title !p-0 text-5xl w-8/12 font-bold">Why <span className="heighLight">choose</span> creatique code.</div>
                         {/* text */}
-                        <div className="font-light text-3xl">We helping our client to fullfill their needs with our expert.</div>
+                        <div className="text-black opacity-30 text-3xl">We helping our client to fullfill their needs with our expert.</div>
                         {/* sub title */}
                         <div className="my-3 hidden md:block"><Image src={shape179} alt='' /></div>
                     </div>
