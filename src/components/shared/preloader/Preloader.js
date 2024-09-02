@@ -10,7 +10,7 @@ const Preloader = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 2000); // Adjust the delay as needed
+        }, 6000); // Adjust the delay as needed
 
         return () => clearTimeout(timer);
     }, []);
