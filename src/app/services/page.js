@@ -15,13 +15,14 @@ const page = () => {
             {/*  */}
             <div className=''><PageBannar titile={'our services'} /></div>
             {/*  */}
-
             <div className='pageContainer container'>
                 <ServiceInfo />
             </div>
-            <div className='pageBannar relative'>
-                <div className='pageContainer'><ChoseUs /></div>
+            <div className='md:p-4'>
+                <div className='pageBannar relative'>
+                    <div className='pageContainer'><ChoseUs /></div>
 
+                </div>
             </div>
             <div className='pageContainer p-4'><Feedback /></div>
             <div className='pageContainer p-4'><Purchese /></div>
