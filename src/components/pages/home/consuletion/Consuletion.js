@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import shape90 from '@/assects/image/shape/shape_90.svg'
+import shape91 from '@/assects/image/shape/shape_91.svg'
 const Consuletion = () => {
     const hendleform = e => {
         e.preventDefault()
@@ -36,23 +37,29 @@ const Consuletion = () => {
                             <div>
                                 <div className='text-[#FF733B] text-2xl capitalize my-4'>urgent?</div>
 
-                                <div className=' flex text-xl gap-2 capitalize '>call us <div className='-my-2 text-3xl '> +88 019XXXXXX</div></div>
+                                <div className=' flex text-xl gap-2 capitalize '>call us <div className='-my-2 text-3xl '> +88 01311857085</div></div>
                             </div>
                         </div>
                         <div className=' p-4 md:p-8 bg-white rounded-lg relative '>
-                            <div className=' absolute -top-12 -left-8 -rotate-12 hidden md:block text-center '>
+                            {/* top bg */}
+                            <div className=' absolute -top-14 -left-20 -rotate-12 hidden md:block text-center text-xl'>
                                 <div>
                                     Fill the <br></br> form 
-                                    </div>
+                                </div>
 
-                                <div className='- -  - -   --  '>
-                                    <Image className=' -/ w-1/2 mx-auto , /# ' src={shape90} alt='' />
+                                <div className=' pl-12'>
+                                    <Image className='' src={shape90} alt='' />
                                  </div>       
 
-                         </div>
+                            </div>
+                            {/* bottom shape */}
+                            <div className=' absolute -bottom-16 -left-16 hidden md:block'>
+                                <Image src={shape91} alt='' />
+
+                            </div>
                             {/*  */}
                             <form onSubmit={hendleform}>
-                                <div className='grid gap-4 capitalize'>
+                                <div className='grid gap-4 capitalize md:p-4'>
                                     {/* name */}
                                     <div className='form-control'>
                                         <input type='text' name='name' placeholder='your name *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
