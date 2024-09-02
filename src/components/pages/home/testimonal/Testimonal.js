@@ -99,9 +99,9 @@ const Testimonal = () => {
                                 className="mySwiper">
                                 {
                                     testimonal.map(item =>
-                                        <SwiperSlide className='bg-white m-4 p-8 rounded-lg grid !gap-4 ' key={item.id}>
+                                        <SwiperSlide className='bg-white m-4 p-8 rounded-lg grid !gap-4 review-card' key={item.id}>
                                             {/*  */}
-                                            <div className='bg-teal-900 w-fit p-4 rounded-full'>
+                                            <div className='img-block w-fit p-4 rounded-full'>
                                                 <Image src={item.icon} alt=''></Image>
                                             </div>
 
@@ -132,9 +132,9 @@ const Testimonal = () => {
                                 className="mySwiper">
                                 {
                                     testimonal.map(item =>
-                                        <SwiperSlide className='bg-white p-8 rounded-lg grid  m-4 ' key={item.id}>
+                                        <SwiperSlide className='bg-white p-8 rounded-lg grid  m-4 review-card' key={item.id}>
                                             {/*  */}
-                                            <div className='bg-teal-900 w-fit p-4 rounded-full'>
+                                            <div className='img-block w-fit p-4 rounded-full'>
                                                 <Image src={item.icon} alt=''></Image>
                                             </div>
 
