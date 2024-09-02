@@ -38,7 +38,7 @@ const Services = () =>{
                     <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4'>
                         {/* title */}
                         <div className=' md:col-span-2'>
-                            <div className='sec-title leading-tight'>let&apos;s <br></br>  <span className='heighLight'>Discover</span> all our Services.</div>
+                            <div className='sec-title md:text-6xl leading-tight'>let&apos;s <br></br>  <span className='heighLight'>Discover</span> all our Services.</div>
                         </div>
                         {/* services card */}
                         {
