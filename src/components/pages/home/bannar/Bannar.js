@@ -38,14 +38,14 @@ const Bannar = () => {
                 {/*  */}
                 <div className="shapes shape-one rounded-[50%] absolute z-[-1] xsm:!hidden w-9 h-9 animate-[jumpTwo_6s_infinite_linear] left-[10%] top-[14%]
 				bg-[#74E2CD]"></div>
-                <Image src={shape83} alt="" className="lazy-img shapes shape-two absolute z-[-1] xsm:!hidden animate-[jumpThree_6s_infinite_linear] left-[3%] top-1/4" style="display: block;" />
+                <Image src={shape83} alt="" className="lazy-img shapes shape-two absolute z-[-1] xsm:!hidden animate-[jumpThree_6s_infinite_linear] left-[3%] top-1/4"  />
                 <div className="shapes shape-three absolute z-[-1] xsm:!hidden w-5 h-5 rotate-45 left-[19%] top-[28%] bg-[#BCD5FF]"></div>
-                <Image src={shape84} alt="" className="lazy-img shapes shape-four absolute z-[-1] xsm:!hidden left-[7%] top-[41%]" style="display: block;" />
-                <Image src={shape85} alt="" className="lazy-img shapes shape-five absolute z-[-1] xsm:!hidden animate-[rotated_25s_infinite_linear] right-[12%] top-[13%]" style="display: block; " />
+                <Image src={shape84} alt="" className="lazy-img shapes shape-four absolute z-[-1] xsm:!hidden left-[7%] top-[41%]"  />
+                <Image src={shape85} alt="" className="lazy-img shapes shape-five absolute z-[-1] xsm:!hidden animate-[rotated_25s_infinite_linear] right-[12%] top-[13%]" />
                 <div className="shapes shape-six rounded-[50%] absolute z-[-1] xsm:!hidden w-3 h-3 right-[5%] top-[15%] bg-[#74E2CD]"></div>
                 <div className="shapes shape-seven rounded-[50%] absolute z-[-1] xsm:!hidden w-9 h-9 animate-[jumpThree_5s_infinite_linear] right-[18%] top-[29%] bg-[#FF5C33]"></div>
-                <Image src={shape84} alt="" className="lazy-img shapes shape-eight absolute z-[-1] xsm:!hidden right-[4%] top-[27%]" style="display: block;" />
-                <Image src={shape83} alt="" className="lazy-img shapes shape-nine absolute z-[-1] xsm:!hidden animate-[jumpTwo_6s_infinite_linear] right-[8%] top-[43%]" style="display: block;" />
+                <Image src={shape84} alt="" className="lazy-img shapes shape-eight absolute z-[-1] xsm:!hidden right-[4%] top-[27%]"  />
+                <Image src={shape83} alt="" className="lazy-img shapes shape-nine absolute z-[-1] xsm:!hidden animate-[jumpTwo_6s_infinite_linear] right-[8%] top-[43%]"  />
             </div>
             {/*  */}
 

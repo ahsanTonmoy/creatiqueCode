@@ -27,8 +27,6 @@ const Header = () => {
         }
     }, [])
 
-
-    // 
     return (
         <div>
             <header className={header ? ' fixed  w-full mx-auto  shadow-xl px-8 py-6 bg-white z-50' : 'px-8 md:py-8 py-6 bg-transparent fixed  w-full mx-auto z-10'}>
@@ -47,7 +45,7 @@ const Header = () => {
                     {/* for large device */}
                     <div>
                         <div className="hidden lg:block">
-                            <FillBtn radius={' rounded-sm'} btnTitle={'free consultation'} />
+                            <FillBtn radius={' rounded-full'} btnTitle={'free consultation'} />
                         </div>
                         <div className=" text-[#FF733B] text-2xl py-2 lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
