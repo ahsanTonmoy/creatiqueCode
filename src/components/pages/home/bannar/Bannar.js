@@ -36,6 +36,7 @@ const Bannar = () => {
 
                 </div>
                 {/*  */}
+                <div className=' hidden md:block'>
                 <div className="shapes shape-one rounded-[50%] absolute z-[-1] xsm:!hidden w-9 h-9 animate-[jumpTwo_6s_infinite_linear] left-[10%] top-[14%]
 				bg-[#74E2CD]"></div>
                 <Image src={shape83} alt="" className="lazy-img shapes shape-two absolute z-[-1] xsm:!hidden animate-[jumpThree_6s_infinite_linear] left-[3%] top-1/4"  />
@@ -46,6 +47,7 @@ const Bannar = () => {
                 <div className="shapes shape-seven rounded-[50%] absolute z-[-1] xsm:!hidden w-9 h-9 animate-[jumpThree_5s_infinite_linear] right-[18%] top-[29%] bg-[#FF5C33]"></div>
                 <Image src={shape84} alt="" className="lazy-img shapes shape-eight absolute z-[-1] xsm:!hidden right-[4%] top-[27%]"  />
                 <Image src={shape83} alt="" className="lazy-img shapes shape-nine absolute z-[-1] xsm:!hidden animate-[jumpTwo_6s_infinite_linear] right-[8%] top-[43%]"  />
+                </div>
             </div>
             {/*  */}
 
