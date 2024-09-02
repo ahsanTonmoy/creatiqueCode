@@ -4,6 +4,7 @@ import Image from 'next/image';
 import shape90 from '@/assects/image/shape/shape_90.svg'
 import shape91 from '@/assects/image/shape/shape_91.svg'
 import icon60 from '../../../../assects/image/icon/icon_60.svg'
+import Link from 'next/link';
 const Consuletion = () => {
     const hendleform = e => {
         e.preventDefault()
@@ -48,12 +49,12 @@ const Consuletion = () => {
                             {/* top bg */}
                             <div className=' absolute -top-14 -left-20 -rotate-12 hidden md:block text-center text-xl'>
                                 <div>
-                                    Fill the <br></br> form 
+                                    Fill the <br></br> form
                                 </div>
 
                                 <div className=' pl-12'>
                                     <Image className='' src={shape90} alt='' />
-                                 </div>       
+                                </div>
 
                             </div>
                             {/* bottom shape */}
@@ -82,7 +83,11 @@ const Consuletion = () => {
                                     </div>
                                 </div>
                             </form>
+                            <div className='text-center text-[#ddd]'>
+                                Been here before? <Link className='border-b border-black text-black' href={'/'}>Check your query</Link>
+                            </div>
                         </div>
+                        {/*  */}
                     </div>
                 </div>
             </div>
