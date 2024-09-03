@@ -17,7 +17,7 @@ const page = () => {
             <div className=''><PageBannar titile={'about us'}/></div>
             {/*  */}
             <div className='pageContainer'><Info/></div>
-            <div className='py-10 pageContainer'><Team></Team></div>
+            <div className='md:py-10 pageContainer'><Team></Team></div>
         </div>
     );
 };

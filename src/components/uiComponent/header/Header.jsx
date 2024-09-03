@@ -51,7 +51,7 @@ const Header = () => {
                         <div className="hidden lg:block">
                             <FillBtn radius={' rounded-full'} btnTitle={'free consultation'} />
                         </div>
-                        <div className=" bg-[#FF733B] text-white text-2xl p-2 rounded lg:hidden cursor-pointer">
+                        <div className=" bg-[#FF8C24] text-white text-2xl p-2 rounded lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
                                 <AiOutlineBars />
                             </div>
@@ -59,7 +59,7 @@ const Header = () => {
                             {
                                 open ? <div className="sidebar fixed top-0 left-0 w-full h-screen text-base z-20">
                                     <div className="menu bg-[#fff] w-60 h-screen p-4">
-                                        <div className="text-[#FF733B] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
+                                        <div className="text-[#FF8C24] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
                                             <IoClose />
                                         </div>
                                         <div className="grid gap-20 my-4">
@@ -92,7 +92,7 @@ const Header = () => {
                         <div className="hidden lg:block">
                             <FillBtn radius={' rounded-lg !bg-black'} btnTitle={'free consultation'} />
                         </div>
-                        <div className=" bg-[#FF733B] text-white text-2xl p-2 lg:hidden cursor-pointer">
+                        <div className=" bg-[#FF8C24] text-white text-2xl p-2 rounded lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
                                 <AiOutlineBars />
                             </div>
@@ -100,7 +100,7 @@ const Header = () => {
                             {
                                 open ? <div className="sidebar fixed top-0 left-0 w-full h-screen text-base z-20">
                                     <div className="menu bg-[#fff] w-60 h-screen p-4">
-                                        <div className="text-[#FF733B] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
+                                        <div className="text-[#FF8C24] text-2xl grid justify-items-end gap-6" onClick={() => setOpen(!open)}>
                                             <IoClose />
                                         </div>
                                         <div className="grid gap-20 my-4">

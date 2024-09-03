@@ -19,7 +19,7 @@ const Team = () => {
 							</div> 
 						</div>
 						<div className="grid md:justify-items-end justify-items-center w-full gap-4 p-4" >
-							<FillBtn btnTitle={'view full team'}/>
+							<FillBtn radius={'!bg-black'} btnTitle={'view full team'}/>
 						</div>
 					</div> 
                     {/* content */}

@@ -98,7 +98,7 @@ before:content-[''] before:absolute before:w-full before:h-[26px] before:bg-cove
     background-color: var(--prime-five);
 }
 .fillBtn:hover {
-    background-color: var(--prime-two) !important;
+    background-color: var(--prime-one) !important;
 }
 
 .outLineBtn {
