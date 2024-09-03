@@ -24,7 +24,7 @@ const ChoseUs = () => {
                     </div>
                     {/* content */}
                     <div className="md:m-4 m-1 p-4 md:p-10 bg-white rounded-lg h-fit ">
-                        <Accordion defaultExpanded className=' shadow-none py-4'>
+                        <Accordion defaultExpanded className=' !shadow-none py-4'>
                             <AccordionSummary
                                 expandIcon={<TiArrowSortedDown />}
                                 aria-controls="panel1-content"
@@ -39,7 +39,7 @@ const ChoseUs = () => {
                             </AccordionDetails>
                         </Accordion>
                         {/*  */}
-                        <Accordion className=' shadow-none py-4'>
+                        <Accordion className=' !shadow-none py-4'>
                             <AccordionSummary
                                 expandIcon={<TiArrowSortedDown />}
                                 aria-controls="panel2-content"
@@ -55,7 +55,7 @@ const ChoseUs = () => {
                             </AccordionDetails>
                         </Accordion>
                         {/*  */}
-                        <Accordion className=' shadow-none py-4'>
+                        <Accordion className=' !shadow-none py-4'>
                             <AccordionSummary
                                 expandIcon={<TiArrowSortedDown />}
                                 aria-controls="panel2-content"

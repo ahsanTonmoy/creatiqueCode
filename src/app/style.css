@@ -225,18 +225,18 @@ before:content-[''] before:absolute before:w-full before:h-[26px] before:bg-cove
 4 #FF5E5E
 */
 /* 1 */
-.review-card .img-block{
+.review-card .img-block,.feedback .swiper-slide .img-block{
     background: #825EFF;
 }
 /* 2 */
-.review-card:nth-child(2n) .img-block{
+.review-card:nth-child(2n) .img-block,.feedback .swiper-slide:nth-child(2n) .img-block{
     background: #11D09F;
 }
 /* 1 */
-.review-card:nth-child(3n) .img-block{
+.review-card:nth-child(3n) .img-block,.feedback .swiper-slide:nth-child(3n) .img-block{
     background: #FFB900 ;
 }
 /* 1 */
-.review-card:nth-child(4n) .img-block{
+.review-card:nth-child(4n) .img-block, .feedback .swiper-slide:nth-child(4n) .img-block{
     background: #FF5E5E;
 }

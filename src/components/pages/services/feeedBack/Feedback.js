@@ -83,7 +83,7 @@ const Feedback = () => {
                                                     <Image src={item.clientImg} alt="" className="m-auto" />
                                                 </div>
                                                 <div className="grid gap-2 ">
-                                                    <div className="icon flex items-center justify-center w-[55px] h-[55px] rounded-[50%]  bg-teal-600" >
+                                                    <div className="icon flex items-center justify-center w-[55px] h-[55px] rounded-[50%] img-block" >
                                                         <Image src={icon7} alt="" />
                                                     </div>
                                                     <div className="rating h3 font-bold text-3xl text-black ">{item.review}</div>

@@ -21,7 +21,7 @@ const Info = () => {
                             {/*  */}
                             <div className=' uppercase text-slate-300 font-bold text-xl'>about us</div>
                             {/*  */}
-                            <div className='text-4xl leading-relaxed font-bold md:w-1/2'>We’ve been helping customer globally.</div>
+                            <div className='text-4xl leading-relaxed font-bold md:w-1/2'>We’ve been <br></br> helping <span className='heighLight'>customer </span>  globally.</div>
                             {/*  */}
                             <div className=''>
                                 <div className=' text-xl font-semibold'>
