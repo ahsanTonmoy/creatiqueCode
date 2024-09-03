@@ -1,5 +1,5 @@
 import React from 'react';
-import avater from '../../../../assects/image/img_01.jpg';
+import avater from '../../../../assects/image/managing_director_of_creatiquit.webp';
 import Image from 'next/image';
 import shape09 from '@/assects/image/shape/shape_09.svg'
 import shape10 from '@/assects/image/shape/shape_10.svg'
@@ -16,7 +16,7 @@ const Info = () => {
                 <div className='inner-content capitalize'>
                     {/* info */}
                     <div className='grid md:grid-cols-2 gap-6 md:gap-16'>
-                        {/*  */}
+                        {/* text content */}
                         <div className=' grid gap-8 my-8 place-content-center p-4'>
                             {/*  */}
                             <div className=' uppercase text-slate-300 font-bold text-xl'>about us</div>
@@ -46,11 +46,11 @@ const Info = () => {
 
                         </div>
                         {/*  */}
-                        <div className='p-4 w-full md:order-first'>
+                        <div className='p-4 w-full md:order-first overflow-hidden'>
                             <div>
                                 {/*  */}
                                 <div className="img-meta inline-block relative !pl-[1rem] xl:!pl-[3rem] lg:!pl-[3rem] pb-[50px] sm:mt-[90px] xsm:mt-[90px] ">
-                                    <Image src={avater} alt="" className="lazy-img"  />
+                                    <Image src={avater} alt="" className="lazy-img "  />
                                     <Image src={shape09} alt="" className="lazy-img shapes shape-one absolute top-[-9%] left-[-3%] z-0 w-[24%] animate-[jumpTwo_3.5s_infinite_linear]"  />
                                     <Image src={shape10} alt="" className="lazy-img shapes shape-two absolute z-[-1] top-[-10%] left-[64%]"  />
                                     <div className="shapes shape-three absolute w-[57px] h-[57px] rotate-[15deg] right-[-5%] z-0 animate-[rotated_28s_infinite_linear] rounded-[13px] top-[10%] bg-[#FF8C24]"></div>
@@ -58,9 +58,9 @@ const Info = () => {
                                     <Image src={shape12} alt="" className="lazy-img shapes shape-five absolute z-[-1] left-[9%] bottom-[2%]"  />
                                     <div className="shapes shape-six absolute w-20 h-20 rotate-[-15deg] z-0 animate-[rotatedTwo_3.5s_infinite_linear] rounded-[15px] left-0 top-[44%] bg-[#17BD37]"></div>
                                     <Image src={shape13} alt="" className="lazy-img shapes shape-seven absolute z-[-1] left-[-10%] animate-[jumpFour_3.5s_infinite_linear] top-1/4"  />
-                                    <div className="card-one absolute w-[330px] shadow-[0px_30px_60px_rgba(14,36,58,0.06)] right-[-17%] pl-[45px] pr-[15px] py-[25px] bottom-0 bg-white lg:p-[15px_15px_15px_30px] lg:w-[280px] md:p-[15px_15px_15px_30px] md:w-[280px] md:right-0 sm:p-[15px_15px_15px_30px] sm:w-[280px] sm:right-0 xsm:p-[15px_15px_15px_30px] xsm:w-[180px] xsm:right-0 wow fadeInUp" >
+                                    <div className="card-one absolute  w-[330px] shadow-[0px_30px_60px_rgba(14,36,58,0.06)] md:right-[-17%] !right-[-0%] pl-[45px] pr-[15px] py-[25px] bottom-0 bg-white " >
                                         <div className="icon flex items-center justify-center rounded-[50%] absolute w-[54px] h-[54px] shadow-[0px_15px_30px_rgba(11,13,36,0.208646)] z-[1] top-[-25px] left-[-25px] bg-[#A024FF]"><Image src={icon6} alt="" className="lazy-img"  /></div>
-                                        <div className="name text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] font-medium text-black mb-[10px]">- Rashed Ka, <span className="opacity-50">CEO</span></div>
+                                        <div className="name text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] font-medium text-black mb-[10px]">- F R Ranad, <span className="opacity-50">CEO</span></div>
                                         <p className="text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] leading-[1.67em] !m-0">We aim to answer any quis query in a minute</p>
                                     </div>
                                 </div>
