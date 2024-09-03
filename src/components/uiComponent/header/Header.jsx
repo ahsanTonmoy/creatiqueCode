@@ -51,7 +51,7 @@ const Header = () => {
                         <div className="hidden lg:block">
                             <FillBtn radius={' rounded-full'} btnTitle={'free consultation'} />
                         </div>
-                        <div className=" text-[#FF733B] text-2xl py-2 lg:hidden cursor-pointer">
+                        <div className=" bg-[#FF733B] text-white text-2xl p-2 rounded lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
                                 <AiOutlineBars />
                             </div>
@@ -92,7 +92,7 @@ const Header = () => {
                         <div className="hidden lg:block">
                             <FillBtn radius={' rounded-lg !bg-black'} btnTitle={'free consultation'} />
                         </div>
-                        <div className=" text-[#FF733B] text-2xl py-2 lg:hidden cursor-pointer">
+                        <div className=" bg-[#FF733B] text-white text-2xl p-2 lg:hidden cursor-pointer">
                             <div className="" onClick={() => setOpen(!open)}>
                                 <AiOutlineBars />
                             </div>
