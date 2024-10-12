@@ -6,24 +6,25 @@ import newsImg2 from '../../../../assects/image/blog/blog_img_05.jpg'
 import newsImg3 from '../../../../assects/image/blog/blog_img_06.jpg'
 import OutLinebtn from '@/components/uiComponent/buttons/OutLinebtn';
 import FillBtn from '@/components/uiComponent/buttons/FillBtn';
+import Link from 'next/link';
 const Articals = () => {
-    const post = [
+     const post = [
         {
             image: newsImg1,
             id: 1,
-            title: 'A Discount Cartridge dsu is Better Ever.',
+            slug: 'A Discount Cartridge dsu is Better.',
             date: '11 july, 2023'
         },
         {
             image: newsImg2,
             id: 2,
-            title: 'Truck Side Advertising Isn It Time for action.',
+            slug: 'Truck Side Advertising Isn It Time for action.',
             date: '19 augost, 2023'
         },
         {
             image: newsImg3,
             id: 3,
-            title: 'A Discount Cartridge dsu is Better Ever.',
+            slug: 'A Discount Cartridge dsu is Better Ever.',
             date: '11 may, 2022'
         },
     ]
@@ -58,13 +59,16 @@ const Articals = () => {
                                         {/*  */}
 
                                         <div className=' text-2xl font-medium'>
-                                            {item.title}
+                                            {item.slug}
                                         </div>
 
                                         {/*  */}
 
                                         <div>
-                                            <OutLinebtn radius={'rounded-full'} btnTitle={'read more'}></OutLinebtn>
+                                            <Link href={`/${item.slug}`}>
+                                             <OutLinebtn radius={'rounded-full'} btnTitle={'read more'}></OutLinebtn>
+                                            </Link>
+                                           
                                         </div>
                                     </div>
                                 )

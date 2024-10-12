@@ -1,11 +1,11 @@
-
-import React from 'react';
 import DetailsPage from '@/components/shared/detailsPage/DetailsPage';
+import React from 'react';
+
 const page = ({params}) => {
     console.log(params.slug);
     return (
         <div>
-           <DetailsPage/>
+            <DetailsPage item={params.slug}/>
         </div>
     );
 };
