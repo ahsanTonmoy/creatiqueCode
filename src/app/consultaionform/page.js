@@ -38,7 +38,7 @@ const page = () => {
 											{/* email */}
 											<div className='form-control'>
 												<label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">email*</label>
-												<input type='email' name='email' placeholder='email *' className='bg-white p-4 w-full capitalize rounded-lg border-4' required />
+												<input type='email' name='email' placeholder='email *' className='bg-white p-4 w-full rounded-lg border-4' required />
 											</div>
 											
 											{/* message */}
