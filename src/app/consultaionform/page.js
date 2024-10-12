@@ -29,7 +29,7 @@ const page = () => {
 							<div className="contact-section-two text-left p-12 bg-white shadow-2xl">
 								<div className=" md:mb-[60px] sm:mb-[60px] xsm:mb-[60px] wow fadeInLeft" >
 									<form onSubmit={hendleform}>
-										<div className='grid gap-4 capitalize'>
+										<div className='grid gap-4'>
 											{/* name */}
 											<div className='form-control'>
 												<label className="block text-[14px] text-[rgba(0,0,0,0.5)] mb-[7px]">Name*</label>
