@@ -11,6 +11,16 @@ export const menuItems = [
     {
         route: 'services',
         path: '/services',
+        submenu:[
+            {
+                route:'web solution',
+                path:'/websolution',
+            },
+            {
+                route:'exmaple 2',
+                path:'/websolution',
+            },
+        ]
     },
     {
         route: 'artical',

@@ -85,7 +85,11 @@ before:content-[''] before:absolute before:w-full before:h-[26px] before:bg-cove
     text-transform: capitalize;
     
 }
+/* menu */
+.menuItem:hover .submenu{
+    display: block;
 
+}
 /*  */
 .sidebar {
     backdrop-filter: blur(4px);
@@ -183,6 +187,7 @@ before:content-[''] before:absolute before:w-full before:h-[26px] before:bg-cove
 
 .feedback .swiper-slide:nth-child(2n) {
     width: 60%;
+    
 }
 
 .feedback .swiper-slide:nth-child(3n) {
