@@ -21,12 +21,22 @@ const page = () => {
         bgColor={'secendary-bg'}
         content={<div className='pageContainer '>
           <Services />
+        </div>
+        }      >
+      </SectionBG>
+      {/*  */}
+      <div className='px-4 md:px-10 lg:px-20 pageContainer h-screen py-8'>
+        <div className=' text-6xl font-extrabold uppercase'>upcoming sectiom</div>
+      </div>
+      {/*  */}
+      <SectionBG
+        bgColor={'secendary-bg'}
+        content={<div className='pageContainer '>
           <Consuletion />
           <Testimonal />
         </div>
         }      >
       </SectionBG>
-
       {/* s */}
      
       <div className='px-4 md:px-10 lg:px-20 pageContainer'>
