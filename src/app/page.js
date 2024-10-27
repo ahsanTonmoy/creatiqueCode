@@ -8,6 +8,7 @@ import SectionBG from '@/components/uiComponent/sectionBg/SectionBG';
 import Head from 'next/head';
 import React from 'react';
 import Preloader from './../components/shared/preloader/Preloader';
+import Product from '@/components/pages/home/products/Product';
 
 const page = () => {
   return (
@@ -25,8 +26,8 @@ const page = () => {
         }      >
       </SectionBG>
       {/*  */}
-      <div className='px-4 md:px-10 lg:px-20 pageContainer h-screen py-8'>
-        <div className=' text-6xl font-extrabold uppercase'>upcoming sectiom</div>
+      <div className='px-4 md:px-10 lg:px-20 pageContainer py-8'>
+        <Product/>
       </div>
       {/*  */}
       <SectionBG
