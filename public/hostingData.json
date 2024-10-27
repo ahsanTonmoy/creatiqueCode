@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Starter",
+        "price": {
+            "monthly": 5,
+            "yearly": 50
+        },
+        "storage": "10 GB SSD",
+        "bandwidth": "100 GB/month",
+        "emailAccounts": 5,
+        "domainsIncluded": 1,
+        "sslCertificate": "Free Let's Encrypt",
+        "support": "Email support only",
+        "database": {
+            "type": "MySQL",
+            "limit": 2
+        },
+        "additionalFeatures": [
+            "Basic security",
+            "1-click CMS installer"
+        ]
+    },
+    {
+        "name": "Standard",
+        "price": {
+            "monthly": 10,
+            "yearly": 100
+        },
+        "storage": "50 GB SSD",
+        "bandwidth": "Unlimited",
+        "emailAccounts": 20,
+        "domainsIncluded": 3,
+        "sslCertificate": "Free Let's Encrypt",
+        "support": "24/7 chat & email support",
+        "database": {
+            "type": "MySQL/PostgreSQL",
+            "limit": 10
+        },
+        "additionalFeatures": [
+            "Daily backups",
+            "Staging environment"
+        ]
+    },
+    {
+        "name": "Premium",
+        "price": {
+            "monthly": 20,
+            "yearly": 200
+        },
+        "storage": "200 GB SSD",
+        "bandwidth": "Unlimited",
+        "emailAccounts": "Unlimited",
+        "domainsIncluded": 10,
+        "sslCertificate": "Free Premium SSL",
+        "support": "24/7 chat, email & phone support",
+        "database": {
+            "type": "MySQL/PostgreSQL/MongoDB",
+            "limit": "Unlimited"
+        },
+        "additionalFeatures": [
+            "Free domain",
+            "Advanced caching",
+            "Priority support"
+        ]
+    }
+]
