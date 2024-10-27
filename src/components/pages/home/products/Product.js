@@ -44,7 +44,7 @@ const Product = () => {
 
                             {
                                 product.slice(0, 6).map(item =>
-                                    <div key={item.name} className='product-item'>
+                                    <div key={item.name} className='product-item cursor-pointer'>
                                         <div className='inner-item bg-white border rounded'>
                                             {/* image block */}
                                             <div className='image-block '>
