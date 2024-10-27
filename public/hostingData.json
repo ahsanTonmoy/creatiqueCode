@@ -38,6 +38,7 @@
         },
         "additionalFeatures": [
             "Daily backups",
+            ", ",
             "Staging environment"
         ]
     },
@@ -59,8 +60,9 @@
         },
         "additionalFeatures": [
             "Free domain",
-            "Advanced caching",
-            "Priority support"
+            ", ",
+            "Advanced caching"
+            
         ]
     }
 ]

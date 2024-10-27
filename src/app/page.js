@@ -9,6 +9,7 @@ import Head from 'next/head';
 import React from 'react';
 import Preloader from './../components/shared/preloader/Preloader';
 import Product from '@/components/pages/home/products/Product';
+import Hosting from '@/components/pages/home/hostingPlan/Hosting';
 
 const page = () => {
   return (
@@ -33,6 +34,7 @@ const page = () => {
       <SectionBG
         bgColor={'secendary-bg'}
         content={<div className='pageContainer '>
+          <Hosting/>
           <Consuletion />
           <Testimonal />
         </div>
