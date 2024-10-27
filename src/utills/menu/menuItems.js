@@ -7,6 +7,10 @@ export const menuItems = [
         route: 'about',
         path: '/about',
     },
+    {
+        route: 'products',
+        path: '/products',
+    },
     
     {
         route: 'services',
